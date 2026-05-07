@@ -1,0 +1,51 @@
+{
+  "center_count_by_graph_type": {
+    "coordinate_shuffled": 24,
+    "distant_same_type": 24,
+    "random_same_slide": 24
+  },
+  "checksums": {
+    "control_graph_diagnostics": "3bfd45d307e52d81b41a2bad1ea0d0c4",
+    "control_neighbors": "ca894dccb1ad800bf1120e7866194442"
+  },
+  "config": {
+    "allow_cell_type_fallback": true,
+    "cell_type_column": "cell_type",
+    "coordinate_columns": [
+      "x",
+      "y"
+    ],
+    "distance_bin_edges": [
+      20.0,
+      75.0,
+      150.0
+    ],
+    "graph_types": [
+      "random_same_slide",
+      "distant_same_type",
+      "coordinate_shuffled"
+    ],
+    "group_columns": [
+      "sample_id",
+      "slide_id"
+    ],
+    "k": 5,
+    "seed": 13,
+    "use_qc_pass": true
+  },
+  "diagnostics_path": "results\\reports\\spine\\synthetic_tiny\\control_graphs_production\\control_graph_diagnostics.parquet",
+  "edge_count": 360,
+  "edge_count_by_graph_type": {
+    "coordinate_shuffled": 120,
+    "distant_same_type": 120,
+    "random_same_slide": 120
+  },
+  "graph_types": [
+    "random_same_slide",
+    "distant_same_type",
+    "coordinate_shuffled"
+  ],
+  "neighbor_path": "results\\reports\\spine\\synthetic_tiny\\control_graphs_production\\control_neighbors.parquet",
+  "status": "available",
+  "unit_count": 24
+}

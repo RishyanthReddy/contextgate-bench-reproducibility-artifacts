@@ -1,0 +1,61 @@
+{
+  "artifacts": {
+    "masked_gene_gene_metrics": "results\\reports\\spine\\synthetic_tiny\\masked_gene_reconstruction\\masked_gene_gene_metrics.parquet",
+    "masked_gene_metrics": "results\\reports\\spine\\synthetic_tiny\\masked_gene_reconstruction\\masked_gene_metrics.parquet",
+    "masked_gene_paired_comparisons": "results\\reports\\spine\\synthetic_tiny\\masked_gene_reconstruction\\masked_gene_paired_comparisons.parquet",
+    "masked_gene_stratified_metrics": "results\\reports\\spine\\synthetic_tiny\\masked_gene_reconstruction\\masked_gene_stratified_metrics.parquet",
+    "masked_gene_summary": "results\\reports\\spine\\synthetic_tiny\\masked_gene_reconstruction\\masked_gene_summary.json",
+    "masked_gene_targets": "results\\reports\\spine\\synthetic_tiny\\masked_gene_reconstruction\\masked_gene_targets.parquet"
+  },
+  "config": {
+    "expression_epsilon": 0.0,
+    "metric_family": "masked_gene_reconstruction",
+    "reference_model_id": "baseline_global_mean",
+    "source_dataset": "synthetic_tiny",
+    "target_group": "masked_targets"
+  },
+  "config_hash": "6a8129d587a1e3ec3df829007acb6c5d",
+  "evaluated_prediction_row_count": 168,
+  "expression_bins": [
+    "positive_high",
+    "positive_low",
+    "positive_medium"
+  ],
+  "gene_metric_row_count": 42,
+  "interpretation_limits": [
+    "This evaluates reconstruction of explicitly masked center genes only.",
+    "MAE-style reconstruction is not, by itself, evidence of biological mechanism.",
+    "Per-gene, expression-bin, split, and paired reference tables must be reported with headline aggregates."
+  ],
+  "masked_gene_count": 2,
+  "masked_genes": [
+    "LIG_A",
+    "REC_A"
+  ],
+  "masked_target_count": 24,
+  "masked_unit_gene_count": 24,
+  "metric_family": "masked_gene_reconstruction",
+  "metric_row_count": 21,
+  "model_count": 7,
+  "model_ids": [
+    "baseline_center_total_scaled_mean",
+    "baseline_global_mean",
+    "baseline_neighbor_average_coordinate_shuffled",
+    "baseline_neighbor_average_distant_same_type",
+    "baseline_neighbor_average_random_same_slide",
+    "baseline_neighbor_average_true_knn",
+    "cellpack_tiny_trained"
+  ],
+  "paired_comparison_row_count": 21,
+  "phase": "CP-4.1",
+  "prediction_row_count": 1344,
+  "reference_model_id": "baseline_global_mean",
+  "source_dataset": "synthetic_tiny",
+  "splits": [
+    "test",
+    "train",
+    "validation"
+  ],
+  "status": "available",
+  "stratified_metric_row_count": 49
+}

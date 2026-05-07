@@ -1,0 +1,5 @@
+criterion,observed_value,required_value,passed,rationale,cp_r4_reopened,learned_router_training_allowed,cp_r4_decision
+trainable_context_positive_strata,3,2,True,Train split needs multiple biological context-positive strata.,False,False,keep_cp_r4_downgraded_to_heuristic
+trainable_expression_negative_strata,2470,2,True,Train split needs expression-only negatives mined before held-out use.,False,False,keep_cp_r4_downgraded_to_heuristic
+trainable_abstention_strata,1789,2,True,Router target needs uncertain strata for abstention calibration.,False,False,keep_cp_r4_downgraded_to_heuristic
+replicated_context_positive_strata,0,1,False,At least one train-positive stratum should recur in validation/test.,False,False,keep_cp_r4_downgraded_to_heuristic

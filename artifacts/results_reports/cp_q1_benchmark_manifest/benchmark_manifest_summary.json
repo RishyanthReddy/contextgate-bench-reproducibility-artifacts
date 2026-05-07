@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "benchmark_manifest_summary": "results\\reports\\cp_q1_benchmark_manifest\\benchmark_manifest_summary.json",
+    "missing_fields_csv": "results\\reports\\cp_q1_benchmark_manifest\\missing_fields.csv",
+    "missing_fields_parquet": "results\\reports\\cp_q1_benchmark_manifest\\missing_fields.parquet",
+    "provenance_audit_csv": "results\\reports\\cp_q1_benchmark_manifest\\provenance_audit.csv",
+    "provenance_audit_parquet": "results\\reports\\cp_q1_benchmark_manifest\\provenance_audit.parquet",
+    "scale_coverage_csv": "results\\reports\\cp_q1_benchmark_manifest\\scale_coverage.csv",
+    "scale_coverage_parquet": "results\\reports\\cp_q1_benchmark_manifest\\scale_coverage.parquet",
+    "validation_issues_csv": "results\\reports\\cp_q1_benchmark_manifest\\validation_issues.csv",
+    "validation_issues_parquet": "results\\reports\\cp_q1_benchmark_manifest\\validation_issues.parquet"
+  },
+  "benchmark_id": "contextgate_bench",
+  "benchmark_version": "contextgate_bench_v0",
+  "checksums": {
+    "benchmark_manifest_summary": "9ab2e612cd59af76bc641701b7af69bd",
+    "missing_fields_csv": "3268a074e4a61d39cc2b9bdf3d731f4e",
+    "missing_fields_parquet": "d90fc07cd86600cd88f0abbac26c6073",
+    "provenance_audit_csv": "60d4fc9c2ed1e1891d5fc034c36f7af7",
+    "provenance_audit_parquet": "87fedd86816ddb44673ad8966a134cba",
+    "scale_coverage_csv": "66dad894c4c858661e2f92cc2d65a54a",
+    "scale_coverage_parquet": "34c9dde19ae38cdb9b48db4c426da1f5",
+    "validation_issues_csv": "99b1ba655ddcaf6a578725a2fdd2c609",
+    "validation_issues_parquet": "ffae8b4b4b47c89c5d3895d8173a76d4"
+  },
+  "issue_count": 0,
+  "missing_field_count": 0,
+  "provenance_pass_count": 7,
+  "provenance_row_count": 7,
+  "scale_axis_count": 12,
+  "scale_pass_count": 12,
+  "validation_passed": true
+}

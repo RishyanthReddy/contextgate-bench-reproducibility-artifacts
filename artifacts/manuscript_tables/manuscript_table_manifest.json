@@ -1,0 +1,354 @@
+{
+  "generator": "scripts/build_contextgate_manuscript_tables.py",
+  "target_journal": "Computational Biology and Chemistry",
+  "source_report_root": "C:\\Users\\rishi\\Downloads\\TME-V4\\results\\reports",
+  "output_dir": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables",
+  "tables": {
+    "main_table_1_dataset_eligibility": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\main_table_1_dataset_eligibility.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\main_table_1_dataset_eligibility.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\main_table_1_dataset_eligibility.tex",
+      "rows": "12"
+    },
+    "main_table_2_benchmark_matrix": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\main_table_2_benchmark_matrix.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\main_table_2_benchmark_matrix.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\main_table_2_benchmark_matrix.tex",
+      "rows": "3"
+    },
+    "main_table_3_claim_to_evidence_audit": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\main_table_3_claim_to_evidence_audit.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\main_table_3_claim_to_evidence_audit.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\main_table_3_claim_to_evidence_audit.tex",
+      "rows": "6"
+    },
+    "supp_table_s1_scale_contract": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s1_scale_contract.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s1_scale_contract.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s1_scale_contract.tex",
+      "rows": "17"
+    },
+    "supp_table_s2_method_metrics": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s2_method_metrics.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s2_method_metrics.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s2_method_metrics.tex",
+      "rows": "10"
+    },
+    "supp_table_s3_positive_null_summary": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s3_positive_null_summary.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s3_positive_null_summary.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s3_positive_null_summary.tex",
+      "rows": "10"
+    },
+    "supp_table_s4_failure_summary": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s4_failure_summary.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s4_failure_summary.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s4_failure_summary.tex",
+      "rows": "7"
+    },
+    "supp_table_s5_contextgate_routes": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s5_contextgate_routes.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s5_contextgate_routes.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s5_contextgate_routes.tex",
+      "rows": "3"
+    },
+    "supp_table_s6_contextgate_no_harm": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s6_contextgate_no_harm.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s6_contextgate_no_harm.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s6_contextgate_no_harm.tex",
+      "rows": "6"
+    },
+    "supp_table_s7_stress_summary": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s7_stress_summary.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s7_stress_summary.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s7_stress_summary.tex",
+      "rows": "8"
+    },
+    "supp_table_s8_table_text_only_evidence": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s8_table_text_only_evidence.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s8_table_text_only_evidence.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s8_table_text_only_evidence.tex",
+      "rows": "7"
+    },
+    "supp_table_s9_figure_inventory": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s9_figure_inventory.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s9_figure_inventory.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s9_figure_inventory.tex",
+      "rows": "10"
+    },
+    "supp_table_s10_cp_q2_dataset_task_utility": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s10_cp_q2_dataset_task_utility.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s10_cp_q2_dataset_task_utility.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s10_cp_q2_dataset_task_utility.tex",
+      "rows": "60"
+    },
+    "supp_table_s11_q6_dataset_task_method_metrics": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s11_q6_dataset_task_method_metrics.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s11_q6_dataset_task_method_metrics.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s11_q6_dataset_task_method_metrics.tex",
+      "rows": "245"
+    },
+    "supp_table_s12_q6_method_task_safety": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s12_q6_method_task_safety.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s12_q6_method_task_safety.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s12_q6_method_task_safety.tex",
+      "rows": "42"
+    },
+    "supp_table_s13_contextgate_routes_by_dataset_task": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s13_contextgate_routes_by_dataset_task.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s13_contextgate_routes_by_dataset_task.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s13_contextgate_routes_by_dataset_task.tex",
+      "rows": "13"
+    },
+    "supp_table_s14_q6_skip_infeasibility": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s14_q6_skip_infeasibility.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s14_q6_skip_infeasibility.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s14_q6_skip_infeasibility.tex",
+      "rows": "29"
+    },
+    "supp_table_s15_claim_downgrade_distribution": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s15_claim_downgrade_distribution.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s15_claim_downgrade_distribution.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s15_claim_downgrade_distribution.tex",
+      "rows": "7"
+    },
+    "supp_table_s16_positive_null_signal_strength": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s16_positive_null_signal_strength.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s16_positive_null_signal_strength.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s16_positive_null_signal_strength.tex",
+      "rows": "120"
+    },
+    "supp_table_s17_q6_regret_distribution": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s17_q6_regret_distribution.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s17_q6_regret_distribution.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s17_q6_regret_distribution.tex",
+      "rows": "17"
+    },
+    "supp_table_s18_threshold_calibration_summary": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s18_threshold_calibration_summary.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s18_threshold_calibration_summary.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s18_threshold_calibration_summary.tex",
+      "rows": "6"
+    },
+    "supp_table_s19_detectability_min_effect": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s19_detectability_min_effect.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s19_detectability_min_effect.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s19_detectability_min_effect.tex",
+      "rows": "10"
+    },
+    "supp_table_s20_real_vs_detectability_audit": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s20_real_vs_detectability_audit.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s20_real_vs_detectability_audit.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s20_real_vs_detectability_audit.tex",
+      "rows": "8"
+    },
+    "supp_table_s21_leakage_confounding_examples": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s21_leakage_confounding_examples.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s21_leakage_confounding_examples.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s21_leakage_confounding_examples.tex",
+      "rows": "5"
+    },
+    "supp_table_s22_downgrade_examples": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s22_downgrade_examples.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s22_downgrade_examples.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s22_downgrade_examples.tex",
+      "rows": "9"
+    },
+    "supp_table_s23_residualization_audit": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s23_residualization_audit.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s23_residualization_audit.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s23_residualization_audit.tex",
+      "rows": "5"
+    },
+    "supp_table_s24_stratified_false_context": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s24_stratified_false_context.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s24_stratified_false_context.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s24_stratified_false_context.tex",
+      "rows": "80"
+    },
+    "supp_table_s25_gate_failure_decomposition": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s25_gate_failure_decomposition.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s25_gate_failure_decomposition.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s25_gate_failure_decomposition.tex",
+      "rows": "63"
+    },
+    "supp_table_s25_gate_failure_summary": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s25_gate_failure_summary.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s25_gate_failure_summary.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s25_gate_failure_summary.tex",
+      "rows": "6"
+    },
+    "supp_table_s26_threshold_operating_points": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s26_threshold_operating_points.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s26_threshold_operating_points.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s26_threshold_operating_points.tex",
+      "rows": "3"
+    },
+    "supp_table_s26_threshold_axis_sensitivity": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s26_threshold_axis_sensitivity.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s26_threshold_axis_sensitivity.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s26_threshold_axis_sensitivity.tex",
+      "rows": "6"
+    },
+    "supp_table_s27_metric_definition_audit": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s27_metric_definition_audit.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s27_metric_definition_audit.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s27_metric_definition_audit.tex",
+      "rows": "10"
+    },
+    "supp_table_s28_dataset_scope_split_audit": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s28_dataset_scope_split_audit.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s28_dataset_scope_split_audit.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s28_dataset_scope_split_audit.tex",
+      "rows": "12"
+    },
+    "supp_table_s29_method_scope_fairness_audit": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s29_method_scope_fairness_audit.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s29_method_scope_fairness_audit.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s29_method_scope_fairness_audit.tex",
+      "rows": "22"
+    },
+    "supp_table_s30a_route_aggregation_trace": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s30a_route_aggregation_trace.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s30a_route_aggregation_trace.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s30a_route_aggregation_trace.tex",
+      "rows": "4"
+    },
+    "supp_table_s30b_dataset_task_performance_disaggregation": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s30b_dataset_task_performance_disaggregation.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s30b_dataset_task_performance_disaggregation.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s30b_dataset_task_performance_disaggregation.tex",
+      "rows": "36"
+    },
+    "supp_table_s31_failure_taxonomy_denominator_audit": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s31_failure_taxonomy_denominator_audit.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s31_failure_taxonomy_denominator_audit.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s31_failure_taxonomy_denominator_audit.tex",
+      "rows": "8"
+    },
+    "supp_table_s32_panel_depth_observability_audit": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s32_panel_depth_observability_audit.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s32_panel_depth_observability_audit.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s32_panel_depth_observability_audit.tex",
+      "rows": "3"
+    },
+    "supp_table_s33a_threshold_grid_detail": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s33a_threshold_grid_detail.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s33a_threshold_grid_detail.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s33a_threshold_grid_detail.tex",
+      "rows": "41"
+    },
+    "supp_table_s33b_stress_family_accounting": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s33b_stress_family_accounting.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s33b_stress_family_accounting.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s33b_stress_family_accounting.tex",
+      "rows": "10"
+    },
+    "supp_table_s33c_claim_survival_reconciliation": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s33c_claim_survival_reconciliation.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s33c_claim_survival_reconciliation.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s33c_claim_survival_reconciliation.tex",
+      "rows": "6"
+    },
+    "supp_table_s34_utility_matrix_construction": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s34_utility_matrix_construction.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s34_utility_matrix_construction.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s34_utility_matrix_construction.tex",
+      "rows": "39"
+    },
+    "supp_table_s35_control_taxonomy_sensitivity": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s35_control_taxonomy_sensitivity.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s35_control_taxonomy_sensitivity.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s35_control_taxonomy_sensitivity.tex",
+      "rows": "60"
+    },
+    "supp_table_s36_power_mde_split_counts": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s36_power_mde_split_counts.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s36_power_mde_split_counts.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s36_power_mde_split_counts.tex",
+      "rows": "18"
+    },
+    "supp_table_s37_method_scope_lr_coverage": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s37_method_scope_lr_coverage.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s37_method_scope_lr_coverage.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s37_method_scope_lr_coverage.tex",
+      "rows": "11"
+    },
+    "supp_table_s38_threshold_gate_policy": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s38_threshold_gate_policy.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s38_threshold_gate_policy.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s38_threshold_gate_policy.tex",
+      "rows": "11"
+    },
+    "supp_table_s39_positive_control_scope_k_audit": {
+      "csv": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s39_positive_control_scope_k_audit.csv",
+      "md": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s39_positive_control_scope_k_audit.md",
+      "tex": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\tables\\supp_table_s39_positive_control_scope_k_audit.tex",
+      "rows": "9"
+    }
+  },
+  "validations": {
+    "all_claim_sources_exist": true,
+    "missing_claim_sources": [],
+    "contextgate_gate_passed": true,
+    "contextgate_no_harm_gate_passed": true,
+    "benchmark_matrix_gate_passed": true,
+    "benchmark_failed_jobs": 0,
+    "robustness_gate_passed": true,
+    "failed_stress_rows_without_downgrade": 0,
+    "strong_biological_context_claim_downgraded": true,
+    "generated_table_count": 47,
+    "expanded_quantitative_tables_present": true,
+    "expanded_quantitative_table_count": 8,
+    "expanded_quantitative_tables_nonempty": true,
+    "calibration_tables_present": true,
+    "calibration_table_count": 3,
+    "calibration_tables_nonempty": true,
+    "leakage_downgrade_residual_tables_present": true,
+    "leakage_downgrade_residual_table_count": 3,
+    "leakage_downgrade_residual_tables_nonempty": true,
+    "stratified_fcr_tables_present": true,
+    "stratified_fcr_table_count": 1,
+    "stratified_fcr_tables_nonempty": true,
+    "gate_decomposition_tables_present": true,
+    "gate_decomposition_table_count": 2,
+    "gate_decomposition_tables_nonempty": true,
+    "threshold_operating_tables_present": true,
+    "threshold_operating_table_count": 2,
+    "threshold_operating_tables_nonempty": true,
+    "metric_definition_tables_present": true,
+    "metric_definition_table_count": 1,
+    "metric_definition_tables_nonempty": true,
+    "utility_matrix_tables_present": true,
+    "utility_matrix_table_count": 1,
+    "utility_matrix_tables_nonempty": true,
+    "dataset_scope_tables_present": true,
+    "dataset_scope_table_count": 1,
+    "dataset_scope_tables_nonempty": true,
+    "method_scope_tables_present": true,
+    "method_scope_table_count": 1,
+    "method_scope_tables_nonempty": true,
+    "disaggregation_tables_present": true,
+    "disaggregation_table_count": 4,
+    "disaggregation_tables_nonempty": true,
+    "stress_accounting_tables_present": true,
+    "stress_accounting_table_count": 3,
+    "stress_accounting_tables_nonempty": true,
+    "control_taxonomy_tables_present": true,
+    "control_taxonomy_table_count": 1,
+    "control_taxonomy_tables_nonempty": true,
+    "power_mde_tables_present": true,
+    "power_mde_table_count": 1,
+    "power_mde_tables_nonempty": true,
+    "method_scope_lr_tables_present": true,
+    "method_scope_lr_table_count": 1,
+    "method_scope_lr_tables_nonempty": true,
+    "threshold_gate_policy_tables_present": true,
+    "threshold_gate_policy_table_count": 1,
+    "threshold_gate_policy_tables_nonempty": true,
+    "positive_control_scope_tables_present": true,
+    "positive_control_scope_table_count": 1,
+    "positive_control_scope_tables_nonempty": true,
+    "passed": true
+  }
+}

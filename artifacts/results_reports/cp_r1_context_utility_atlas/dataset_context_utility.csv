@@ -1,0 +1,7 @@
+source_dataset,run_count,phase_count,artifact_count,max_context_utility_score,mean_context_utility_score,strict_positive_count,positive_control_count,localized_exploratory_count,negative_context_count,coverage_or_preflight_count,route_recommendations,phases
+cosmx_6k_bcc_yerly_2024,4,2,93,0.1,0.05,0,0,0,2,2,expression_only;metadata_only,CP-6K;CP-6L
+cosmx_nsclc_ffpe_v1,2,2,66,0.1,0.1,0,0,0,0,2,metadata_only,CP-6E;CP-6F
+gse277782_cosmx_pdac_metastasis,6,3,196,0.35,0.225,0,0,1,1,4,abstain_uncertain;expression_only,CP-6G;CP-6K;EC-XDATA-01A
+gse310352_cosmx_pdac_1k,3,2,84,0.35,0.11666666666666665,0,0,1,2,0,abstain_uncertain;expression_only,CP-6J;CP-6K
+xenium_breast_biomarkers_v1,3,1,33,0.0,0.0,0,0,0,3,0,expression_only,CP-4.11
+xenium_breast_v1,5,5,309,0.7,0.15,0,1,0,3,1,abstain_uncertain;expression_only;metadata_only,CP-4.10;CP-4.7;CP-4.7R;CP-4.8;CP-4.9

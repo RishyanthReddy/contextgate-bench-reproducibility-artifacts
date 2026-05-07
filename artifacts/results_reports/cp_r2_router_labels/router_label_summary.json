@@ -1,0 +1,67 @@
+{
+  "artifacts": {
+    "class_balance_csv": "results\\reports\\cp_r2_router_labels\\class_balance.csv",
+    "class_balance_parquet": "results\\reports\\cp_r2_router_labels\\class_balance.parquet",
+    "leakage_audit_csv": "results\\reports\\cp_r2_router_labels\\leakage_audit.csv",
+    "leakage_audit_parquet": "results\\reports\\cp_r2_router_labels\\leakage_audit.parquet",
+    "router_label_report": "results\\reports\\cp_r2_router_labels\\router_label_report.md",
+    "router_label_schema": "results\\reports\\cp_r2_router_labels\\router_label_schema.yaml",
+    "router_label_schema_manifest": "data\\manifests\\router_label_schema.yaml",
+    "router_label_summary": "results\\reports\\cp_r2_router_labels\\router_label_summary.json",
+    "router_labels_csv": "results\\reports\\cp_r2_router_labels\\router_labels.csv",
+    "router_labels_parquet": "results\\reports\\cp_r2_router_labels\\router_labels.parquet",
+    "uncertainty_report_csv": "results\\reports\\cp_r2_router_labels\\uncertainty_report.csv",
+    "uncertainty_report_parquet": "results\\reports\\cp_r2_router_labels\\uncertainty_report.parquet"
+  },
+  "blocked_training_route_label": "abstain_uncertain",
+  "checksums": {
+    "class_balance_csv": "e4761cbaab948b848bcd65fb5ac67db5",
+    "class_balance_parquet": "cea85ab132e45f1d9170fc9034135bd3",
+    "leakage_audit_csv": "a01bc8c27020edfdc0b4ee3be4572a59",
+    "leakage_audit_parquet": "020f09ded92d03921b6ae2e9ec34c54c",
+    "router_label_report": "9b26659b4626f57f16cb51bccb99d21d",
+    "router_label_schema": "b9111c4058e2eaec13c55f3302df3a1d",
+    "router_label_schema_manifest": "b9111c4058e2eaec13c55f3302df3a1d",
+    "router_labels_csv": "e4482e2f87b757496d5b1c85f217cbd9",
+    "router_labels_parquet": "5e07fb383577877f6a858c8e8e1b00b1",
+    "uncertainty_report_csv": "c7b75490803e5779b8f292bd33723cb7",
+    "uncertainty_report_parquet": "6b4b238bcd1c1db75762c9215b8056e0"
+  },
+  "compressed_context_assigned_count": 0,
+  "evaluation_only_count": 13,
+  "has_negative_examples": true,
+  "has_positive_control_examples": true,
+  "has_uncertain_examples": true,
+  "heldout_biological_outcome_count": 13,
+  "label_family_counts": {
+    "biological_context_negative": 11,
+    "exploratory_localized": 2,
+    "synthetic_positive_control": 1,
+    "uncertain_or_metadata": 9
+  },
+  "label_usage_counts": {
+    "evaluation_only": 13,
+    "train_allowed": 6,
+    "validation_only": 4
+  },
+  "output_label": "cp_r2_router_labels",
+  "phase": "CP-R2",
+  "positive_control_split": "train_synthetic",
+  "route_label_counts": {
+    "abstain_uncertain": 11,
+    "expression_only": 11,
+    "full_context": 1
+  },
+  "route_labels_within_allowed_set": true,
+  "row_count": 23,
+  "split_hygiene_passed": true,
+  "train_eligible_heldout_outcome_count": 0,
+  "train_percent": 80,
+  "training_eligible_count": 6,
+  "training_leakage_violation_count": 0,
+  "training_route_label_counts": {
+    "abstain_uncertain": 5,
+    "full_context": 1
+  },
+  "validation_percent": 20
+}

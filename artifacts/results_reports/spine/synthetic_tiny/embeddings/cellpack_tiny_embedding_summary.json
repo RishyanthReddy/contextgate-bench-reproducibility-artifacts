@@ -1,0 +1,37 @@
+{
+  "artifacts": {
+    "cellpack_tiny_embedding_diagnostics": "results\\reports\\spine\\synthetic_tiny\\embeddings\\cellpack_tiny_embedding_diagnostics.parquet",
+    "cellpack_tiny_embedding_projection": "results\\reports\\spine\\synthetic_tiny\\embeddings\\cellpack_tiny_embedding_projection.parquet",
+    "cellpack_tiny_embedding_projection_figure": "results\\reports\\spine\\synthetic_tiny\\embeddings\\cellpack_tiny_embedding_projection.png",
+    "cellpack_tiny_embedding_summary": "results\\reports\\spine\\synthetic_tiny\\embeddings\\cellpack_tiny_embedding_summary.json",
+    "cellpack_tiny_embeddings": "results\\reports\\spine\\synthetic_tiny\\embeddings\\cellpack_tiny_embeddings.parquet"
+  },
+  "config": {
+    "figure_dpi": 160,
+    "metric": "euclidean",
+    "min_dist": 0.1,
+    "model_id": "cellpack_tiny_trained",
+    "n_neighbors": 10,
+    "random_state": 13,
+    "reducer": "pca",
+    "source_dataset": "synthetic_tiny"
+  },
+  "embedding_dim": 32,
+  "graph_types": [
+    "true_knn"
+  ],
+  "model_id": "cellpack_tiny_trained",
+  "model_type": "cellpack_tiny",
+  "phase": "CP-3.5",
+  "projection_fallback_reason": null,
+  "projection_method": "pca",
+  "requested_reducer": "pca",
+  "sequence_count": 24,
+  "source_dataset": "synthetic_tiny",
+  "splits": [
+    "test",
+    "train",
+    "validation"
+  ],
+  "status": "available"
+}

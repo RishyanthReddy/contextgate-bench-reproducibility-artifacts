@@ -1,0 +1,14 @@
+# Supplementary Table S3: Positive/Null-Control Summary
+
+| Method | Rows | Positive-control rows | Null/control rows | Positive sensitivity | Null specificity | Null false-context rate | Abstention rate | Gate pass rate |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ContextGate | 72 | 36 | 36 | 0.8633 | 0.9433 | 0.0 | 0.3333 | 1.0 |
+| CellPack tiny | 72 | 36 | 36 | 0.7967 | 0.56 | 0.3333 | 0.1667 | 0.8333 |
+| LR/pathway | 72 | 36 | 36 | 0.7267 | 0.62 | 0.3333 | 0.1667 | 0.8333 |
+| GraphSAGE style | 72 | 36 | 36 | 0.7867 | 0.58 | 0.3333 | 0.1667 | 0.8333 |
+| Spatial stats | 72 | 36 | 36 | 0.7067 | 0.5867 | 0.3333 | 0.3333 | 0.6667 |
+| Expression only | 72 | 36 | 36 | 0.0 | 1.0 | 0.0 | 0.0 | 0.5 |
+| Always context | 72 | 36 | 36 | 0.92 | 0.0 | 1.0 | 0.0 | 0.5 |
+| Coord. shuffled | 72 | 36 | 36 | 0.0774 | 0.0 | 1.0 | 0.0 | 0.0 |
+| Distant control | 72 | 36 | 36 | 0.0774 | 0.0 | 1.0 | 0.0 | 0.0 |
+| Random control | 72 | 36 | 36 | 0.0774 | 0.0 | 1.0 | 0.0 | 0.0 |

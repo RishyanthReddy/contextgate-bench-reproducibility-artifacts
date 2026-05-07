@@ -1,0 +1,8 @@
+failure_class,failure_count,dataset_count,task_count,method_count,claim_downgrade
+fov_or_sample_artifact,189,5,2,9,no_spatial_neighbor_claim_without_controls
+insufficient_power,184,5,3,9,abstain_until_more_power_or_replicates
+panel_lacks_downstream_genes,51,2,2,5,downgrade_pathway_or_lr_panel_claim
+labels_not_replicated,10,3,2,1,no_heldout_generalization_claim
+expression_absorbs_signal,9,2,2,1,prefer_expression_only_baseline
+access_or_schema_blocker,5,5,1,1,rejected_dataset_ledger_only
+lr_without_downstream_response,1,1,1,1,no_downstream_lr_response_claim

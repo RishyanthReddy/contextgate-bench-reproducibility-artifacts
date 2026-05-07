@@ -1,0 +1,13 @@
+axis,observed,target_min,required,status,passed
+usable_dataset_backbone_rows,6,6,True,pass,True
+rejected_or_access_blocked_dataset_rows,5,5,True,pass,True
+cancer_or_tissue_contexts,5,3,True,pass,True
+platforms,2,2,True,pass,True
+task_families,7,6,True,pass,True
+method_families,10,7,True,pass,True
+control_families,6,4,True,pass,True
+split_families,5,3,True,pass,True
+positive_control_levels,6,5,True,pass,True
+metric_families,15,12,True,pass,True
+main_figures,6,6,True,pass,True
+supplementary_tables,11,8,True,pass,True

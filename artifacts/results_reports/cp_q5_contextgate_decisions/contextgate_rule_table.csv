@@ -1,0 +1,6 @@
+rule_priority,reason_code,route_label,trigger,failure_behavior,max_false_positive_context_rate
+1,strict_replicated_context_signal,context_allowed,"Strict residual, conditioned, held-out, and FDR gates all pass.","Use context, but only for the registered replicated target.",0.05
+2,synthetic_context_signal_detected,positive_control_only,Injected positive-control context signal is detected.,Mechanics-only claim; no biological spatial claim.,0.05
+3,negative_or_expression_absorbed,expression_only,Negative evidence or expression-only absorbs residual signal.,Use expression-only and block context-benefit claims.,0.05
+4,uncertain_or_unreplicated,abstain_uncertain,"Borderline, localized, underpowered, or unreplicated evidence.",Abstain and require additional evidence.,0.05
+5,access_or_schema_blocker,abstain_uncertain,Dataset lacks clean public cell-level benchmark inputs.,Reject as evidence row until preprocessing/access is solved.,0.05

@@ -1,0 +1,59 @@
+{
+  "artifacts": {
+    "cellpack_tiny_trained_metrics": "results\\reports\\spine\\synthetic_tiny\\cellpack_tiny_trained_cli\\cellpack_tiny_trained_metrics.parquet",
+    "cellpack_tiny_trained_predictions": "results\\reports\\spine\\synthetic_tiny\\cellpack_tiny_trained_cli\\cellpack_tiny_trained_predictions.parquet",
+    "cellpack_tiny_trained_state": "results\\reports\\spine\\synthetic_tiny\\cellpack_tiny_trained_cli\\cellpack_tiny_trained_state.pt",
+    "cellpack_tiny_trained_summary": "results\\reports\\spine\\synthetic_tiny\\cellpack_tiny_trained_cli\\cellpack_tiny_trained_summary.json",
+    "cellpack_tiny_training_history": "results\\reports\\spine\\synthetic_tiny\\cellpack_tiny_trained_cli\\cellpack_tiny_training_history.csv"
+  },
+  "config": {
+    "d_model": 32,
+    "dropout": 0.0,
+    "embedding_token_count": 25,
+    "ffn_dim": 64,
+    "gene_count": 8,
+    "max_sequence_length": 48,
+    "model_id": "cellpack_tiny_trained",
+    "n_heads": 4,
+    "n_layers": 1,
+    "output_activation": "softplus",
+    "pad_token_id": 24,
+    "source_dataset": "synthetic_tiny",
+    "target_kind": "expression",
+    "token_count": 24
+  },
+  "final_loss": 0.0045835720375180244,
+  "forward_smoke": false,
+  "gene_count": 8,
+  "graph_types": [
+    "true_knn"
+  ],
+  "initial_loss": 0.2965553402900696,
+  "loss_decreased": true,
+  "model_id": "cellpack_tiny_trained",
+  "model_type": "cellpack_tiny",
+  "parameter_count": 11144,
+  "prediction_row_count": 192,
+  "sequence_count": 24,
+  "source_dataset": "synthetic_tiny",
+  "splits": [
+    "test",
+    "train",
+    "validation"
+  ],
+  "status": "available",
+  "target_scale": 10.0,
+  "train_sequence_count": 16,
+  "trained": true,
+  "training_config": {
+    "batch_size": null,
+    "gradient_clip_norm": 1.0,
+    "learning_rate": 0.03,
+    "seed": 13,
+    "steps": 40,
+    "target_scale": 10.0,
+    "train_split": "train",
+    "weight_decay": 0.0
+  },
+  "unit_count": 24
+}

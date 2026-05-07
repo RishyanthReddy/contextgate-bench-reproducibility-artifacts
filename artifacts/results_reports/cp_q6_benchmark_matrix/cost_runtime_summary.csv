@@ -1,0 +1,4 @@
+benchmark_tier,total_jobs,completed_jobs,skipped_jobs,failed_jobs,total_wallclock_seconds,artifact_size_bytes,hardware_counts,rerun_required_count
+core,1152,912,240,0,36.448,2851526,"{""cpu"": 1152}",0
+mini,96,96,0,0,3.816,289158,"{""cpu"": 96}",0
+q1,1512,1316,196,0,52.676,4096960,"{""cpu"": 1512}",0

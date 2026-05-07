@@ -1,0 +1,14 @@
+# Supplementary Table S33B: Stress Family Accounting
+
+| Accounting row | Accounting role | Included in 127 stress-row denominator | Displayed in Figure 8 | Rows | Passed or survived rows | Downgraded rows | Failed without downgrade | Downgrade source | Denominator note | Source artifact |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| leave one out | Row-generating stress family | Yes | Yes | 16 | 16 | 0 | 0 | none | Counts toward the 127 row-level CP-Q7 stress tests. | results/reports/cp_q7_robustness_stress/leave_one_out_stress.csv |
+| threshold sensitivity | Row-generating stress family | Yes | Yes | 18 | 13 | 5 | 0 | biological context claim downgraded no fdr support, heldout replication claim downgraded | Counts toward the 127 row-level CP-Q7 stress tests. | results/reports/cp_q7_robustness_stress/threshold_sensitivity.csv |
+| seed sweep | Row-generating stress family | Yes | Yes | 68 | 68 | 0 | 0 | none | Counts toward the 127 row-level CP-Q7 stress tests. | results/reports/cp_q7_robustness_stress/seed_sweep.csv |
+| contextgate reason ablation | Row-generating stress family | Yes | Yes | 11 | 11 | 0 | 0 | none | Counts toward the 127 row-level CP-Q7 stress tests. | results/reports/cp_q7_robustness_stress/contextgate_reason_ablation.csv |
+| control ablation | Row-generating stress family | Yes | Yes | 4 | 4 | 0 | 0 | none | Counts toward the 127 row-level CP-Q7 stress tests. | results/reports/cp_q7_robustness_stress/control_ablation.csv |
+| positive control ablation | Row-generating stress family | Yes | Yes | 6 | 6 | 0 | 0 | none | Counts toward the 127 row-level CP-Q7 stress tests. | results/reports/cp_q7_robustness_stress/positive_control_ablation.csv |
+| compute sensitivity | Row-generating stress family | Yes | Yes | 4 | 4 | 0 | 0 | none | Counts toward the 127 row-level CP-Q7 stress tests. | results/reports/cp_q7_robustness_stress/compute_sensitivity.csv |
+| Claim survival audit | Separate claim-level audit | No | No | 6 | 5 | 1 | 0 | unsupported no strict real context signal | Separate six-claim audit; not a row-generating stress family and therefore not plotted in Figure 8. | results/reports/cp_q7_robustness_stress/claim_survival_audit.csv |
+| Row-generating stress total | Stress-row denominator total | Yes | Figure 8 sums these families | 127 | 122 | 5 | 0 | threshold sensitivity only | Seven row-generating families produce 127 stress rows: 122 pass and 5 carry explicit downgrades. | results/reports/cp_q7_robustness_stress/robustness_stress_summary.json |
+| Combined reviewer accounting | Stress rows plus separate claim audit | No | No | 133 | 127 | 6 | 0 | 5 threshold-stress downgrades + 1 claim downgrade | No seventh downgrade exists in the registered CP-Q7 artifacts; the manuscript wording is corrected to 5 + 1. | results/reports/cp_q7_robustness_stress/robustness_stress_summary.json; claim_survival_audit.csv |

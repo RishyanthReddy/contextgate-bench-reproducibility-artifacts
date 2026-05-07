@@ -1,0 +1,11 @@
+# Supplementary Table S15: Claim Downgrade Distribution
+
+| Claim downgrade | Failure class | Rows | Datasets | Allowed claim | Blocked claim | Required next step |
+| --- | --- | --- | --- | --- | --- | --- |
+| no spatial neighbor claim without controls | fov or sample artifact | 189 | 5 | Apparent spatial signal may reflect FOV/sample structure or wrong context use. | No physical-neighbor claim without controls. | Add FOV/sample controls and held-out splits. |
+| abstain until more power or replicates | insufficient power | 184 | 5 | The result is underpowered or insufficiently controlled and should abstain. | No positive or negative biological conclusion beyond abstention. | Increase units, samples, seeds, or mark abstention. |
+| downgrade pathway or lr panel claim | panel lacks downstream genes | 51 | 2 | Panel coverage can explain why a specific LR/pathway task is not claimable. | No broad pathway or LR recovery claim. | Use richer panels or restrict task scope. |
+| no heldout generalization claim | labels not replicated | 10 | 3 | The benchmark detected candidate context evidence that did not replicate. | No held-out or donor-generalized context claim. | Require validation/test or donor-level replication. |
+| prefer expression only baseline | expression absorbs signal | 9 | 2 | Expression-only baselines explain the target better than neighbor context under current gates. | No claim that context improves over expression-only. | Report expression-only as the safer route. |
+| rejected dataset ledger only | access or schema blocker | 5 | 5 | The dataset is useful only as a rejected/access-ledger row. | No usable cell-level benchmark evidence claim. | Reject or freeze as future preprocessing work. |
+| no downstream lr response claim | lr without downstream response | 1 | 1 | Measured LR proximity does not imply downstream transcriptional response. | No causal or downstream LR-response claim. | Evaluate downstream modules, not receptor coexpression alone. |

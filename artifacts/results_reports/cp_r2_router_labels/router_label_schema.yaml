@@ -1,0 +1,48 @@
+schema_name: router_label_schema
+schema_version: '1.0'
+phase: CP-R2
+description: Split-aware route labels derived from the CP-R1 context utility atlas.
+  Outcome-derived biological rows are held out from router training; synthetic positive
+  controls and metadata-only abstention rows may train route mechanics.
+route_labels:
+- expression_only
+- compressed_context
+- full_context
+- abstain_uncertain
+evidence_classes:
+- strict_positive
+- positive_control_only
+- localized_exploratory
+- borderline_preflight
+- coverage_only
+- insufficient_evidence
+- negative_context
+training_policy:
+  positive_control_only: train_allowed for route mechanics only
+  coverage_only: train_allowed abstention label
+  insufficient_evidence: train_allowed abstention label
+  borderline_preflight: validation_only caution label
+  localized_exploratory: evaluation_only, not strict proof
+  negative_context: evaluation_only, not used for training
+  strict_positive: evaluation_only unless future train split exists
+required_tables:
+  router_labels:
+  - router_label_id
+  - context_utility_id
+  - source_dataset
+  - run_label
+  - route_label
+  - training_route_label
+  - label_usage
+  - training_eligible
+  - uses_heldout_biological_outcome
+  leakage_audit:
+  - router_label_id
+  - training_eligible
+  - uses_heldout_biological_outcome
+  - training_leakage_violation
+  class_balance:
+  - balance_scope
+  - class_name
+  - row_count
+  - fraction

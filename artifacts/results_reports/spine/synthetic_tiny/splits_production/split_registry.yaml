@@ -1,0 +1,49 @@
+contract_version: split_registry_v1
+split_id: synthetic_tiny_unit_hash_seed_13
+source_dataset: synthetic_tiny
+requested_strategy: group_holdout
+resolved_strategy: unit_hash
+strategy: unit_hash
+unit_id_column: unit_id
+split_column: split
+group_columns:
+- sample_id
+- slide_id
+ratios:
+  train: 0.67
+  validation: 0.17
+  test: 0.16
+seed: 13
+counts:
+  train: 16
+  validation: 4
+  test: 4
+group_counts:
+  train: 0
+  validation: 1
+  test: 0
+assignment_count: 24
+leakage_policy:
+  group_holdout_requested: true
+  group_holdout_available: false
+  fallback_reason: only 1 group(s) available; minimum is 3
+  leakage_scope: within_group_unit_hash_only
+  claim_limit: Held-out sample/slide claims require resolved_strategy=group_holdout.
+config:
+  source_dataset: synthetic_tiny
+  strategy: group_holdout
+  group_columns:
+  - sample_id
+  - slide_id
+  unit_id_column: unit_id
+  train_ratio: 0.67
+  validation_ratio: 0.17
+  test_ratio: 0.16
+  seed: 13
+  min_groups_for_holdout: 3
+  allow_unit_fallback: true
+  contract_version: split_registry_v1
+assignments_path: results\reports\spine\synthetic_tiny\splits_production\split_assignments.parquet
+summary_path: results\reports\spine\synthetic_tiny\splits_production\split_summary.json
+checksums:
+  split_assignments: bca6dd9bc56b56dc34157023399d2feb

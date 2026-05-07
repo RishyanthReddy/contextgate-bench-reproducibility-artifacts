@@ -1,0 +1,31 @@
+{
+  "center_count": 24,
+  "checksums": {
+    "spatial_graph_diagnostics": "af39762eb4f9f493faa0b1d2ce1828a4",
+    "spatial_neighbors": "0422b4417f6ff7f3cccf735f88472a64"
+  },
+  "config": {
+    "coordinate_columns": [
+      "x",
+      "y"
+    ],
+    "distance_bin_edges": [
+      20.0,
+      75.0,
+      150.0
+    ],
+    "graph_type": "true_knn",
+    "group_columns": [
+      "sample_id",
+      "slide_id"
+    ],
+    "k": 5,
+    "use_qc_pass": true
+  },
+  "diagnostics_path": "results\\reports\\spine\\synthetic_tiny\\graphs_production\\spatial_graph_diagnostics.parquet",
+  "edge_count": 120,
+  "graph_type": "true_knn",
+  "neighbor_path": "results\\reports\\spine\\synthetic_tiny\\graphs_production\\spatial_neighbors.parquet",
+  "status": "available",
+  "unit_count": 24
+}

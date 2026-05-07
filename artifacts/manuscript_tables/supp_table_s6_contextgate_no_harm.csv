@@ -1,0 +1,7 @@
+Analysis,Domain,Comparator,ContextGate false-context rate,Comparator false-context rate,False-context reduction,ContextGate no-harm rate,Comparator no-harm rate,ContextGate abstention rate,Positive-control route recovery,Gate passed
+registered vs always true neighbor mean,registered context utility,Always context,0.0,0.4783,0.4783,1.0,0.5217,0.5217,0.0,True
+registered vs expression only linear,registered context utility,Expression only,0.0,0.0,0.0,1.0,1.0,0.5217,0.0,True
+registered vs cellpack packed context tiny,registered context utility,CellPack tiny,0.0,0.0,0.0,1.0,1.0,0.5217,0.0,True
+synthetic vs always true neighbor mean,positive null control ladder,Always context,0.0,1.0,1.0,1.0,0.5,0.3333,1.0,True
+synthetic vs expression only linear,positive null control ladder,Expression only,0.0,0.0,0.0,1.0,0.5,0.3333,1.0,True
+synthetic vs cellpack packed context tiny,positive null control ladder,CellPack tiny,0.0,0.3333,0.3333,1.0,0.8333,0.3333,1.0,True

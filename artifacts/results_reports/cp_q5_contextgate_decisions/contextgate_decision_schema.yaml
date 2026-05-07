@@ -1,0 +1,37 @@
+schema_name: contextgate_decision_schema
+schema_version: '1.0'
+phase: CP-Q5
+route_labels:
+- expression_only
+- context_allowed
+- abstain_uncertain
+- positive_control_only
+required_tables:
+  contextgate_decisions:
+  - artifact_registry_ids
+  - benchmark_row_id
+  - dataset_id
+  - evidence_pointer
+  - fdr_effect_gate_passed
+  - heldout_replication_passed
+  - leakage_audit_passed
+  - reason_code
+  - residual_gate_passed
+  - route_label
+  - target_id
+  - task_id
+  - wrong_context_gate_passed
+  contextgate_rule_table:
+  - rule_priority
+  - reason_code
+  - route_label
+  - trigger
+  - failure_behavior
+  no_harm_analysis:
+  - analysis_id
+  - analysis_domain
+  - comparator_method_id
+  - contextgate_false_positive_context_rate
+  - comparator_false_positive_context_rate
+  - false_positive_context_reduction
+  - gate_passed

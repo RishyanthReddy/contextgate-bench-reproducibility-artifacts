@@ -1,0 +1,58 @@
+schema_name: router_target_remediation_schema
+schema_version: '1.0'
+phase: CP-R3A
+description: Audit tables for deciding whether CP-R4 has a nontrivial, split-safe
+  learned-router target after CP-R3 baselines.
+candidate_phases:
+- CP-4.1
+- CP-4.3
+- CP-4.4
+- CP-4.5A
+- CP-4.6
+- CP-4.7
+- CP-4.7R
+- CP-4.7R-B
+- CP-4.8
+- CP-4.9
+- CP-4.10
+- CP-4.11
+- CP-6E
+- CP-6F
+- CP-6G
+- CP-6J
+- CP-6K
+- CP-6L
+- EC-XDATA-01A
+- EC-XDATA-01A.1
+route_labels:
+- expression_only
+- compressed_context
+- full_context
+- abstain_uncertain
+required_tables:
+  candidate_artifacts:
+  - artifact_name
+  - phase
+  - artifact_kind
+  - local_available
+  - fine_grained_potential
+  - label_leakage_risk
+  - usable_for_cp_r4_training
+  - blocking_reason
+  feature_leakage_audit:
+  - feature_name
+  - feature_family
+  - available_in_inputs
+  - leakage_risk
+  - training_allowed
+  trainable_label_counts:
+  - balance_scope
+  - class_name
+  - row_count
+  - fraction
+  cp_r4_gate_decision:
+  - criterion
+  - passed
+  - observed_value
+  - required_value
+  - cp_r4_decision

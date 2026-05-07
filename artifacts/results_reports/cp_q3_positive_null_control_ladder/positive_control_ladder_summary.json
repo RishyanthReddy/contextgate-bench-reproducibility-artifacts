@@ -1,0 +1,77 @@
+{
+  "artifacts": {
+    "claim_audit_csv": "results\\reports\\cp_q3_positive_null_control_ladder\\claim_audit.csv",
+    "claim_audit_parquet": "results\\reports\\cp_q3_positive_null_control_ladder\\claim_audit.parquet",
+    "false_positive_curve_csv": "results\\reports\\cp_q3_positive_null_control_ladder\\false_positive_curve.csv",
+    "false_positive_curve_parquet": "results\\reports\\cp_q3_positive_null_control_ladder\\false_positive_curve.parquet",
+    "ladder_cases_csv": "results\\reports\\cp_q3_positive_null_control_ladder\\ladder_cases.csv",
+    "ladder_cases_parquet": "results\\reports\\cp_q3_positive_null_control_ladder\\ladder_cases.parquet",
+    "method_summary_csv": "results\\reports\\cp_q3_positive_null_control_ladder\\method_summary.csv",
+    "method_summary_parquet": "results\\reports\\cp_q3_positive_null_control_ladder\\method_summary.parquet",
+    "positive_control_ladder_csv": "results\\reports\\cp_q3_positive_null_control_ladder\\positive_control_ladder.csv",
+    "positive_control_ladder_parquet": "results\\reports\\cp_q3_positive_null_control_ladder\\positive_control_ladder.parquet",
+    "positive_control_ladder_report": "results\\reports\\cp_q3_positive_null_control_ladder\\positive_control_ladder_report.md",
+    "positive_control_ladder_schema": "results\\reports\\cp_q3_positive_null_control_ladder\\positive_control_ladder_schema.yaml",
+    "positive_control_ladder_schema_manifest": "data\\manifests\\contextgate_positive_control_ladder_schema.yaml",
+    "positive_control_ladder_summary": "results\\reports\\cp_q3_positive_null_control_ladder\\positive_control_ladder_summary.json",
+    "recovery_curve_csv": "results\\reports\\cp_q3_positive_null_control_ladder\\recovery_curve.csv",
+    "recovery_curve_parquet": "results\\reports\\cp_q3_positive_null_control_ladder\\recovery_curve.parquet"
+  },
+  "benchmark_run_id": "contextgate_bench_v0_cp_q3_smoke",
+  "checksums": {
+    "claim_audit_csv": "02677f8e0dfbcd485daa3c722ed9dc21",
+    "claim_audit_parquet": "2f7d328ee111b368bf45f5ae8dc7dc44",
+    "false_positive_curve_csv": "9bb7359d0504e5aba73655063a45f7c4",
+    "false_positive_curve_parquet": "52e5f90ea4c7227231a392feab443b8f",
+    "ladder_cases_csv": "65c13765025b21fb6c196fb6b9d19904",
+    "ladder_cases_parquet": "4275d3567cabe0d20021eab932220985",
+    "method_summary_csv": "d7c4497af736c10e8f5d6cff1172e286",
+    "method_summary_parquet": "50ab5e9569abe2ca22eb82891ad7c8ac",
+    "positive_control_ladder_csv": "5738feec5e9862672c56538eea8bed9b",
+    "positive_control_ladder_parquet": "1f060078bad893786b2ca40332542145",
+    "positive_control_ladder_report": "a17403657c35974244809c0633acb234",
+    "positive_control_ladder_schema": "296b8ca8685414d2f2296ecbd2048588",
+    "recovery_curve_csv": "aa7331ae306264a52517957ddf0d4eed",
+    "recovery_curve_parquet": "c581a0d60b64660d3cdb7e4a9e6cbaad"
+  },
+  "config": {
+    "benchmark_run_id": "contextgate_bench_v0_cp_q3_smoke",
+    "dataset_ids": [
+      "xenium_breast_biomarkers_v1",
+      "gse310352_cosmx_pdac_1k"
+    ],
+    "false_positive_threshold": 0.05,
+    "output_label": "cp_q3_positive_null_control_ladder",
+    "phase": "CP-Q3",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "sensitivity_threshold": 0.65,
+    "specificity_threshold": 0.8,
+    "split_ids": [
+      "unit_hash_split",
+      "fov_holdout"
+    ],
+    "task_id": "positive_null_control_ladder"
+  },
+  "contextgate_abstention_rate": 0.3333333333333333,
+  "contextgate_false_positive_context_rate": 0.0,
+  "contextgate_negative_controls_passed": true,
+  "contextgate_positive_controls_passed": true,
+  "control_level_count": 6,
+  "dataset_count": 2,
+  "false_positive_curve_row_count": 60,
+  "ladder_case_count": 72,
+  "ladder_gate_passed": true,
+  "method_count": 10,
+  "output_label": "cp_q3_positive_null_control_ladder",
+  "phase": "CP-Q3",
+  "positive_control_ladder_row_count": 720,
+  "recovery_curve_row_count": 60,
+  "schema_passed": true,
+  "seed_count": 3,
+  "split_count": 2,
+  "task_id": "positive_null_control_ladder"
+}

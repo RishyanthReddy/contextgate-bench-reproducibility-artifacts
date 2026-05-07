@@ -1,0 +1,51 @@
+schema_name: router_target_mining_schema
+schema_version: '1.0'
+phase: CP-R3B
+description: Unit/FOV/cell-type/pathway route target mining from Modal-held residual
+  score artifacts.
+route_labels:
+- expression_only
+- compressed_context
+- full_context
+- abstain_uncertain
+reference_variants:
+- center_only
+- random_neighbor
+- coordinate_shuffled
+- distant_neighbor
+required_tables:
+  source_manifest:
+  - source_label
+  - source_dataset
+  - status
+  stratum_comparisons:
+  - source_label
+  - source_dataset
+  - split
+  - sample_id
+  - fov_id
+  - cell_type
+  - pathway
+  - target_family
+  - reference_variant
+  - mean_delta
+  - bh_q_value
+  - reference_passed
+  stratum_label_candidates:
+  - source_label
+  - source_dataset
+  - split
+  - sample_id
+  - fov_id
+  - cell_type
+  - pathway
+  - target_family
+  - route_label
+  - training_eligible
+  - stratum_key
+  cp_r4_reopen_decision:
+  - criterion
+  - passed
+  - observed_value
+  - required_value
+  - cp_r4_decision

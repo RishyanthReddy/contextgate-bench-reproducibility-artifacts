@@ -1,0 +1,53 @@
+{
+  "aggregate_metric_count": 84,
+  "artifacts": {
+    "lr_pair_availability": "results\\reports\\spine\\synthetic_tiny\\ligand_receptor_recovery\\lr_pair_availability.parquet",
+    "lr_recovery_aggregate_metrics": "results\\reports\\spine\\synthetic_tiny\\ligand_receptor_recovery\\lr_recovery_aggregate_metrics.parquet",
+    "lr_recovery_center_scores": "results\\reports\\spine\\synthetic_tiny\\ligand_receptor_recovery\\lr_recovery_center_scores.parquet",
+    "lr_recovery_pair_metrics": "results\\reports\\spine\\synthetic_tiny\\ligand_receptor_recovery\\lr_recovery_pair_metrics.parquet",
+    "lr_recovery_summary": "results\\reports\\spine\\synthetic_tiny\\ligand_receptor_recovery\\lr_recovery_summary.json"
+  },
+  "available_pair_count": 1,
+  "center_score_count": 672,
+  "config": {
+    "hit_ks": [
+      1,
+      3,
+      5
+    ],
+    "ligand_positive_min": 0.0,
+    "metric_family": "ligand_receptor_recovery",
+    "negative_receptors_per_pair": 3,
+    "pair_source": "synthetic_fixture",
+    "random_state": 13,
+    "source_dataset": "synthetic_tiny"
+  },
+  "filtered_pair_count": 0,
+  "input_pair_count": 1,
+  "interpretation_limits": [
+    "This is an association-style recovery diagnostic, not causal evidence.",
+    "Pairs absent from the measured gene panel are reported as filtered.",
+    "Negative receptors are deterministic expression-matched controls."
+  ],
+  "metric_family": "ligand_receptor_recovery",
+  "model_ids": [
+    "baseline_center_total_scaled_mean",
+    "baseline_global_mean",
+    "baseline_neighbor_average_coordinate_shuffled",
+    "baseline_neighbor_average_distant_same_type",
+    "baseline_neighbor_average_random_same_slide",
+    "baseline_neighbor_average_true_knn",
+    "cellpack_tiny_trained"
+  ],
+  "neighbor_graph_types": [
+    "coordinate_shuffled",
+    "distant_same_type",
+    "random_same_slide",
+    "true_knn"
+  ],
+  "pair_metric_count": 84,
+  "pair_source": "synthetic_fixture",
+  "phase": "CP-4.3",
+  "source_dataset": "synthetic_tiny",
+  "status": "available"
+}

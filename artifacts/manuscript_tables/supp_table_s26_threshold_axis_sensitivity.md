@@ -1,0 +1,10 @@
+# Supplementary Table S26B: Threshold-Axis Sensitivity
+
+| Threshold axis | Observed value | Threshold levels tested | Passing levels | Failing levels | Downgraded levels | Downgrade reason | Rows | Interpretation | Source artifact |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| effect size threshold | 0.157 | 0.02, 0.05, 0.1 | 0.02, 0.05, 0.1 | none | none | none | 3 | Effect-size thresholds pass at every tested level, but this does not override row-level residual, FDR, and replication gates. | results/reports/cp_q7_robustness_stress/threshold_sensitivity.csv |
+| false positive threshold | 0.0 | 0, 0.05, 0.1 | 0, 0.05, 0.1 | none | none | none | 3 | False-context safety is stable across tested FCR ceilings. | results/reports/cp_q7_robustness_stress/threshold_sensitivity.csv |
+| fdr threshold | 0.343 | 0.01, 0.05, 0.1 | none | 0.01, 0.05, 0.1 | 0.01, 0.05, 0.1 | biological context claim downgraded no fdr support | 3 | The strong biological context claim remains downgraded at every tested FDR threshold. | results/reports/cp_q7_robustness_stress/threshold_sensitivity.csv |
+| min row count | 188.0 | 3, 10, 30 | 3, 10, 30 | none | none | none | 3 | The benchmark has enough completed evidence rows for the stress suite after explicit skips. | results/reports/cp_q7_robustness_stress/threshold_sensitivity.csv |
+| no harm threshold | 1.0 | 0.8, 0.9, 0.95 | 0.8, 0.9, 0.95 | none | none | none | 3 | No-harm is stable across the tested conservative-to-lenient thresholds. | results/reports/cp_q7_robustness_stress/threshold_sensitivity.csv |
+| replication threshold | 0.599 | 0.5, 0.6, 0.7 | 0.5 | 0.6, 0.7 | 0.6, 0.7 | heldout replication claim downgraded | 3 | Replication is the borderline axis: it passes only the lenient 0.50 operating floor. | results/reports/cp_q7_robustness_stress/threshold_sensitivity.csv |

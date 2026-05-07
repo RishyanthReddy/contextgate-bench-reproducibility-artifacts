@@ -1,0 +1,4 @@
+Route,Decisions,Datasets,Tasks,Mean confidence,Claim level
+Abstain,40,11,3,0.8855,abstain uncertain no positive claim
+Expression only,23,5,2,0.9396,expression only recommended no context claim
+Positive-control only,37,3,2,0.9208,synthetic mechanics only no biology claim

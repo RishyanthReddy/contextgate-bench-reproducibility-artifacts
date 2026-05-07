@@ -1,0 +1,9 @@
+stress_run_id,stress_family,stress_axis,description,predeclared,tuning_allowed
+contextgate_bench_v0_cp_q7,leave_one_out,dataset_context_platform,Drop one dataset/context/platform and recompute core claims.,True,False
+contextgate_bench_v0_cp_q7,threshold_sensitivity,fdr_effect_noharm_fp_replication_min_rows,Sweep predeclared thresholds without tuning toward a positive claim.,True,False
+contextgate_bench_v0_cp_q7,seed_sweep,seed,Check seed-level stability for stochastic or seed-indexed rows.,True,False
+contextgate_bench_v0_cp_q7,contextgate_reason_ablation,reason_code,Remove one ContextGate reason-code family at a time.,True,False
+contextgate_bench_v0_cp_q7,control_ablation,wrong_context_control,Remove one wrong-context control family at a time.,True,False
+contextgate_bench_v0_cp_q7,positive_control_ablation,positive_null_control_level,Drop one positive/null-control ladder level at a time.,True,False
+contextgate_bench_v0_cp_q7,compute_sensitivity,sample_size_multiplier,Estimate runtime/artifact scaling under bounded matrix sizes.,True,False
+contextgate_bench_v0_cp_q7,claim_survival_audit,claim,Map every surviving or failed claim to an explicit downgrade.,True,False

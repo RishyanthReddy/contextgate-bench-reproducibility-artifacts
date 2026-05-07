@@ -1,0 +1,30 @@
+{
+  "claim_survival_audit": {
+    "reason": "Only two outcome counts; state in text or claim-to-evidence table.",
+    "source": "cp_q7_robustness_stress/claim_survival_audit.csv"
+  },
+  "method_no_harm_profile": {
+    "reason": "Sparse no-harm/false-context points; full-benchmark metric profile and no-harm table carry the evidence more cleanly.",
+    "source": "cp_q2_method_comparison/method_metrics.csv"
+  },
+  "modal_matrix_execution": {
+    "reason": "Administrative job counts are better as a reproducibility table.",
+    "source": "cp_q6_benchmark_matrix/job_status.csv"
+  },
+  "registered_no_harm_dumbbell": {
+    "reason": "Mostly zero-valued false-context rates; report as a no-harm audit row.",
+    "source": "cp_q5_contextgate_decisions/contextgate_no_harm.csv"
+  },
+  "synthetic_no_harm_dumbbell": {
+    "reason": "Mostly zero-valued false-context rates; report as a no-harm audit row.",
+    "source": "cp_q5_contextgate_decisions/contextgate_no_harm.csv"
+  },
+  "threshold_leave_one_out_checks": {
+    "reason": "Four count values; a robustness table is clearer than a bar chart.",
+    "source": "cp_q7_robustness_stress/threshold_sensitivity.csv and leave_one_out_stress.csv"
+  },
+  "utility_delta_vs_always_context": {
+    "reason": "The key contrast is already covered by regret/metric-profile figures; use a sentence or supplementary method-delta table.",
+    "source": "cp_q2_method_comparison/paired_method_deltas.csv"
+  }
+}

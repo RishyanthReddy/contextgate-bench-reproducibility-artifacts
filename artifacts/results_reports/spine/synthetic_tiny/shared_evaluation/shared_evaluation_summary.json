@@ -1,0 +1,49 @@
+{
+  "artifacts": {
+    "shared_evaluation_comparisons": "results\\reports\\spine\\synthetic_tiny\\shared_evaluation\\shared_evaluation_comparisons.parquet",
+    "shared_evaluation_mask_targets": "results\\reports\\spine\\synthetic_tiny\\shared_evaluation\\shared_evaluation_mask_targets.parquet",
+    "shared_evaluation_metrics": "results\\reports\\spine\\synthetic_tiny\\shared_evaluation\\shared_evaluation_metrics.parquet",
+    "shared_evaluation_summary": "results\\reports\\spine\\synthetic_tiny\\shared_evaluation\\shared_evaluation_summary.json"
+  },
+  "comparison_row_count": 42,
+  "config": {
+    "metric_family": "expression_reconstruction",
+    "reference_model_id": "baseline_global_mean",
+    "source_dataset": "synthetic_tiny",
+    "target_groups": [
+      "all_genes",
+      "masked_targets"
+    ]
+  },
+  "config_hash": "349c65e1cebf8d715229daf1d4517172",
+  "interpretation_limits": [
+    "This is a shared artifact-level evaluation, not biological proof.",
+    "Ligand-receptor recovery remains a separate CP-4 evaluator."
+  ],
+  "mask_target_count": 24,
+  "metric_family": "expression_reconstruction",
+  "metric_row_count": 42,
+  "model_count": 7,
+  "model_ids": [
+    "baseline_center_total_scaled_mean",
+    "baseline_global_mean",
+    "baseline_neighbor_average_coordinate_shuffled",
+    "baseline_neighbor_average_distant_same_type",
+    "baseline_neighbor_average_random_same_slide",
+    "baseline_neighbor_average_true_knn",
+    "cellpack_tiny_trained"
+  ],
+  "prediction_row_count": 1344,
+  "reference_model_id": "baseline_global_mean",
+  "source_dataset": "synthetic_tiny",
+  "splits": [
+    "test",
+    "train",
+    "validation"
+  ],
+  "status": "available",
+  "target_groups": [
+    "all_genes",
+    "masked_targets"
+  ]
+}

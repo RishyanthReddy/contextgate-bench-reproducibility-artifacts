@@ -1,0 +1,8 @@
+card,change_type,rerun_level,decision,reason
+CP-Q8.7A,Issue ledger and claim boundary,Level 1,No cloud rerun,Planning artifact only; no executable semantics changed.
+CP-Q8.7B,FCR and oracle-regret metric audit,Level 2,No cloud rerun,"Values reconciled from CP-Q2, CP-Q3, CP-Q5, and CP-Q6 artifacts."
+CP-Q8.7C,Stratified FCR and expression-only comparator tables,Level 2,No cloud rerun,"S24 is derived from registered CP-Q2, CP-Q3, and CP-Q5 tables."
+CP-Q8.7D,Gate decomposition and leakage definition,Level 2,No cloud rerun,S25 is derived from existing CP-Q5 route columns.
+CP-Q8.7E,Threshold operating-point tables,Level 2,No cloud rerun,"S26 is derived from CP-Q3, CP-Q5, CP-Q6, and CP-Q7 artifacts."
+CP-Q8.7F,LR/pathway and graph method specification,Level 1,No cloud rerun,Manuscript/specification patch only.
+CP-Q8.7G,Claim rewrite and literature-concordance audit,Level 1,No cloud rerun,"Manuscript wording, reviewer supplement, and Data/Code wording only; no metrics, thresholds, scripts, or entrypoints changed."

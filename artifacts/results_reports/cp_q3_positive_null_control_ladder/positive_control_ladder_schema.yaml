@@ -1,0 +1,43 @@
+schema_name: contextgate_positive_control_ladder_schema
+schema_version: '1.0'
+phase: CP-Q3
+required_tables:
+  positive_control_ladder:
+  - benchmark_run_id
+  - control_level
+  - dataset_id
+  - task_id
+  - method_id
+  - injected_signal_strength
+  - expected_route
+  - observed_route
+  - sensitivity
+  - specificity
+  - false_positive_context_rate
+  - abstention_rate
+  - gate_passed
+  - artifact_registry_ids
+  ladder_cases:
+  - benchmark_run_id
+  - ladder_case_id
+  - dataset_id
+  - control_level
+  - split_id
+  - seed
+  - synthetic_status
+  - expected_route
+  - expected_context_positive
+  recovery_curve:
+  - dataset_id
+  - control_level
+  - method_id
+  - sensitivity
+  - recovery_rate
+  - row_count
+  false_positive_curve:
+  - dataset_id
+  - control_level
+  - method_id
+  - specificity
+  - false_positive_context_rate
+  - row_count

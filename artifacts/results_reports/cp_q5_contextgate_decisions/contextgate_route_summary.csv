@@ -1,0 +1,4 @@
+route_label,decision_count,dataset_count,task_count,mean_confidence,claim_level
+abstain_uncertain,40,11,3,0.8855000000000001,abstain_uncertain_no_positive_claim
+expression_only,23,5,2,0.9395652173913043,expression_only_recommended_no_context_claim
+positive_control_only,37,3,2,0.9208108108108108,synthetic_mechanics_only_no_biology_claim

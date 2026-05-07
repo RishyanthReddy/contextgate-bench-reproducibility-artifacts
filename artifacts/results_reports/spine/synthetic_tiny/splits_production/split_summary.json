@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "split_assignments": "results\\reports\\spine\\synthetic_tiny\\splits_production\\split_assignments.parquet",
+    "split_registry": "results\\reports\\spine\\synthetic_tiny\\splits_production\\split_registry.yaml",
+    "split_summary": "results\\reports\\spine\\synthetic_tiny\\splits_production\\split_summary.json"
+  },
+  "checksums": {
+    "split_assignments": "bca6dd9bc56b56dc34157023399d2feb",
+    "split_registry": "d0e09b33e6dfbf6ad4da46de7062268f"
+  },
+  "counts": {
+    "test": 4,
+    "train": 16,
+    "validation": 4
+  },
+  "fallback_reason": "only 1 group(s) available; minimum is 3",
+  "group_holdout_available": false,
+  "resolved_strategy": "unit_hash",
+  "split_id": "synthetic_tiny_unit_hash_seed_13",
+  "status": "available",
+  "unit_count": 24
+}

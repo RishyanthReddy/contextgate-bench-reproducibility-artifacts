@@ -1,0 +1,94 @@
+contract_version: split_registry_v1
+split_id: synthetic_tiny_unit_hash_seed_13
+source_dataset: synthetic_tiny
+requested_strategy: group_holdout
+resolved_strategy: unit_hash
+strategy: unit_hash
+unit_id_column: unit_id
+split_column: split
+group_columns:
+- sample_id
+- slide_id
+ratios:
+  train: 0.67
+  validation: 0.17
+  test: 0.16
+seed: 13
+counts:
+  train: 16
+  validation: 4
+  test: 4
+group_counts:
+  train: 0
+  validation: 1
+  test: 0
+assignment_count: 24
+leakage_policy:
+  group_holdout_requested: true
+  group_holdout_available: false
+  fallback_reason: only 1 group(s) available; minimum is 3
+  leakage_scope: within_group_unit_hash_only
+  claim_limit: Held-out sample/slide claims require resolved_strategy=group_holdout.
+config:
+  source_dataset: synthetic_tiny
+  strategy: group_holdout
+  group_columns:
+  - sample_id
+  - slide_id
+  unit_id_column: unit_id
+  train_ratio: 0.67
+  validation_ratio: 0.17
+  test_ratio: 0.16
+  seed: 13
+  min_groups_for_holdout: 3
+  allow_unit_fallback: true
+  contract_version: split_registry_v1
+assignments:
+- unit_id: synthetic_cell_000
+  split: validation
+- unit_id: synthetic_cell_001
+  split: train
+- unit_id: synthetic_cell_002
+  split: train
+- unit_id: synthetic_cell_003
+  split: test
+- unit_id: synthetic_cell_004
+  split: train
+- unit_id: synthetic_cell_005
+  split: train
+- unit_id: synthetic_cell_006
+  split: train
+- unit_id: synthetic_cell_007
+  split: test
+- unit_id: synthetic_cell_008
+  split: train
+- unit_id: synthetic_cell_009
+  split: train
+- unit_id: synthetic_cell_010
+  split: train
+- unit_id: synthetic_cell_011
+  split: validation
+- unit_id: synthetic_cell_012
+  split: train
+- unit_id: synthetic_cell_013
+  split: validation
+- unit_id: synthetic_cell_014
+  split: test
+- unit_id: synthetic_cell_015
+  split: train
+- unit_id: synthetic_cell_016
+  split: validation
+- unit_id: synthetic_cell_017
+  split: train
+- unit_id: synthetic_cell_018
+  split: train
+- unit_id: synthetic_cell_019
+  split: test
+- unit_id: synthetic_cell_020
+  split: train
+- unit_id: synthetic_cell_021
+  split: train
+- unit_id: synthetic_cell_022
+  split: train
+- unit_id: synthetic_cell_023
+  split: train

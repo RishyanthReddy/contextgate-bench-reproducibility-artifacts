@@ -1,0 +1,2 @@
+claim_id,claim_status,claim_downgrade,evidence_pointer,required_action
+cp_q6_scale_contract,q1_scale_matrix_ready,none,scale_contract_compliance.parquet,proceed_to_cp_q7_stress_tests

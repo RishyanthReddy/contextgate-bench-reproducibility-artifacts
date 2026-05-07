@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "baseline_metrics": "results\\reports\\spine\\synthetic_tiny\\baselines\\baseline_metrics.parquet",
+    "baseline_predictions": "results\\reports\\spine\\synthetic_tiny\\baselines\\baseline_predictions.parquet",
+    "baseline_summary": "results\\reports\\spine\\synthetic_tiny\\baselines\\baseline_summary.json"
+  },
+  "config": {
+    "include_center_total_scaled_mean": true,
+    "include_global_mean": true,
+    "include_neighbor_average": true,
+    "source_dataset": "synthetic_tiny",
+    "target_kind": "expression"
+  },
+  "gene_count": 8,
+  "model_count": 6,
+  "model_ids": [
+    "baseline_center_total_scaled_mean",
+    "baseline_global_mean",
+    "baseline_neighbor_average_coordinate_shuffled",
+    "baseline_neighbor_average_distant_same_type",
+    "baseline_neighbor_average_random_same_slide",
+    "baseline_neighbor_average_true_knn"
+  ],
+  "prediction_row_count": 1152,
+  "source_dataset": "synthetic_tiny",
+  "splits": [
+    "test",
+    "train",
+    "validation"
+  ],
+  "status": "available",
+  "unit_count": 24
+}

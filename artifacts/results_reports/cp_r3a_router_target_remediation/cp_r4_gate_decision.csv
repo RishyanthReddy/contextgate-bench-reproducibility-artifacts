@@ -1,0 +1,8 @@
+criterion,passed,observed_value,required_value,rationale,cp_r4_reopened,learned_router_training_allowed,heuristic_router_release_allowed,cp_r4_decision
+nontrivial_baseline_gap,False,0.0,0.05,A learned router is only justified if simple CP-R1 score thresholds leave meaningful oracle gap.,False,False,True,downgrade_to_heuristic_router_release
+trainable_biological_context_positive,False,0.0,2.0,Positive-control rows can test mechanics but cannot support a biological learned-router claim.,False,False,True,downgrade_to_heuristic_router_release
+trainable_context_positive_any,False,1.0,2.0,The training target needs enough context-positive examples to avoid a one-row synthetic route.,False,False,True,downgrade_to_heuristic_router_release
+trainable_expression_negative,False,0.0,2.0,"Expression-only negatives are held out biological outcomes in CP-R2, so they cannot train the learned route directly.",False,False,True,downgrade_to_heuristic_router_release
+trainable_abstention,True,5.0,2.0,Abstention examples are needed for calibrated uncertainty.,False,False,True,downgrade_to_heuristic_router_release
+usable_fine_grained_artifact,False,0.0,1.0,Existing per-unit or per-stratum artifacts must be local and split-safe before they can remediate CP-R4 labels.,False,False,True,downgrade_to_heuristic_router_release
+independent_features_available,True,10.0,1.0,"The router can use coverage/metadata features, but not the label-derived CP-R1 score or gate outcomes.",False,False,True,downgrade_to_heuristic_router_release

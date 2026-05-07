@@ -1,0 +1,44 @@
+schema_name: context_utility_schema
+schema_version: '1.0'
+phase: CP-R1
+description: Registry-backed atlas of where spatial context is strict-positive, positive-control-only,
+  localized exploratory, negative, or not yet testable.
+score_policy:
+  strict_positive: 1.0
+  positive_control_only: 0.7
+  localized_exploratory: 0.35
+  borderline_preflight: 0.25
+  coverage_only: 0.1
+  insufficient_evidence: 0.05
+  negative_context: 0.0
+classification_policy:
+  strict_positive: requires at least one strict biological gate to pass
+  positive_control_only: positive-control signal passed but is not biological proof
+  localized_exploratory: localized or partial lead exists without strict replay
+  negative_context: strict gates were evaluated and did not pass
+  coverage_only: coverage/split feasibility exists without context-utility proof
+  borderline_preflight: preflight decision suggests follow-up but no strict gate passed
+  insufficient_evidence: registry contains no context-utility gate
+required_tables:
+  run_context_utility:
+  - context_utility_id
+  - phase
+  - source_dataset
+  - run_label
+  - evidence_class
+  - route_recommendation
+  - context_utility_score
+  - claim_rationale
+  dataset_context_utility:
+  - source_dataset
+  - run_count
+  - max_context_utility_score
+  - strict_positive_count
+  - negative_context_count
+  stratum_context_utility:
+  - context_utility_id
+  - source_dataset
+  - run_label
+  - gate_name
+  - gate_passed
+  - evidence_class

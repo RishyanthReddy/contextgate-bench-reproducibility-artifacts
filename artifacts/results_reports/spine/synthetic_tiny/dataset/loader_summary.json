@@ -1,0 +1,7 @@
+{
+  "dataset_id": "synthetic_tiny",
+  "gene_count": 8,
+  "matrix_orientation": "units_by_genes",
+  "nonzero_entries": 132,
+  "unit_count": 24
+}

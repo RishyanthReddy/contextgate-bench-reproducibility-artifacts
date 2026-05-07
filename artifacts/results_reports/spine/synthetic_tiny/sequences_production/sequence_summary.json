@@ -1,0 +1,21 @@
+{
+  "center_top_n": 4,
+  "config": {
+    "center_top_n": 4,
+    "coordinate_bins": 32,
+    "mask_center_gene": true,
+    "masked_gene_symbols": [],
+    "max_neighbors": 5,
+    "neighbor_top_n": 2,
+    "source_dataset": "synthetic_tiny"
+  },
+  "masked_sequence_count": 24,
+  "max_neighbors": 5,
+  "max_sequence_length": 51,
+  "median_sequence_length": 51.0,
+  "min_sequence_length": 51,
+  "neighbor_top_n": 2,
+  "sequence_count": 24,
+  "source_dataset": "synthetic_tiny",
+  "vocabulary_size": 42
+}

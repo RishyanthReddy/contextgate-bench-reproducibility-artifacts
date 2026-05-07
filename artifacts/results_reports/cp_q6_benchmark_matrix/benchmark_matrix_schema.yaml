@@ -1,0 +1,55 @@
+schema_name: contextgate_benchmark_matrix_schema
+schema_version: '1.0'
+phase: CP-Q6
+required_tables:
+  job_manifest:
+  - job_id
+  - benchmark_run_id
+  - benchmark_tier
+  - dataset_id
+  - task_id
+  - method_id
+  - control_id
+  - split_id
+  - seed
+  - planned_status
+  - skip_reason
+  job_status:
+  - job_id
+  - benchmark_tier
+  - modal_function
+  - dataset_id
+  - task_id
+  - method_id
+  - control_id
+  - split_id
+  - seed
+  - hardware
+  - started_at
+  - finished_at
+  - wallclock_seconds
+  - status
+  - skip_reason
+  benchmark_metric_matrix:
+  - benchmark_run_id
+  - dataset_id
+  - task_id
+  - method_id
+  - control_id
+  - split_id
+  - seed
+  - metric_family
+  - metric_name
+  - metric_value
+  - paired_delta_vs_expression
+  - paired_delta_vs_always_context
+  - runtime_seconds
+  - artifact_registry_ids
+  - source_evidence_tables
+  scale_contract_compliance:
+  - axis
+  - observed_count
+  - target_min
+  - required
+  - passed
+  - claim_downgrade_if_failed

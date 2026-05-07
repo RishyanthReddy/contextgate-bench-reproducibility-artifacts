@@ -1,0 +1,22 @@
+feature_name,feature_family,available_in_inputs,leakage_risk,training_allowed,rationale
+artifact_count,independent_metadata_or_coverage,True,low,True,Metadata or coverage feature can be used if it is computed before held-out outcome evaluation.
+available_module_target_count,independent_metadata_or_coverage,True,low,True,Metadata or coverage feature can be used if it is computed before held-out outcome evaluation.
+available_pair_count,independent_metadata_or_coverage,True,low,True,Metadata or coverage feature can be used if it is computed before held-out outcome evaluation.
+cell_type_count,independent_metadata_or_coverage,True,low,True,Metadata or coverage feature can be used if it is computed before held-out outcome evaluation.
+fov_id_count,independent_metadata_or_coverage,True,low,True,Metadata or coverage feature can be used if it is computed before held-out outcome evaluation.
+gene_count,independent_metadata_or_coverage,True,low,True,Metadata or coverage feature can be used if it is computed before held-out outcome evaluation.
+pathway_count,independent_metadata_or_coverage,True,low,True,Metadata or coverage feature can be used if it is computed before held-out outcome evaluation.
+row_or_unit_count,independent_metadata_or_coverage,True,low,True,Metadata or coverage feature can be used if it is computed before held-out outcome evaluation.
+sample_id_count,independent_metadata_or_coverage,True,low,True,Metadata or coverage feature can be used if it is computed before held-out outcome evaluation.
+split_metadata_status,independent_metadata_or_coverage,True,low,True,Metadata or coverage feature can be used if it is computed before held-out outcome evaluation.
+bio_gate_replay_passed,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."
+context_utility_score,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."
+evidence_class,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."
+label_family,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."
+label_usage,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."
+proof_gate_passed,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."
+raw_receptor_signal_gate_passed,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."
+residual_module_gate_passed,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."
+route_label,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."
+strict_conditioned_gate_passed,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."
+training_route_label,label_or_outcome_derived,True,blocked_high,False,"Derived from CP-R1 route evidence, gate outcomes, or the target label itself; using it would reproduce the score heuristic."

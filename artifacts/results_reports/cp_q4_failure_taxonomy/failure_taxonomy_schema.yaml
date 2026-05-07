@@ -1,0 +1,40 @@
+schema_name: contextgate_failure_taxonomy_schema
+schema_version: '1.0'
+phase: CP-Q4
+failure_classes:
+- panel_lacks_downstream_genes
+- labels_not_replicated
+- expression_absorbs_signal
+- fov_or_sample_artifact
+- lr_without_downstream_response
+- insufficient_power
+- access_or_schema_blocker
+required_tables:
+  failure_taxonomy:
+  - benchmark_row_id
+  - dataset_id
+  - task_id
+  - method_id
+  - route_label
+  - failure_class
+  - failure_reason
+  - evidence_pointer
+  - claim_downgrade
+  - artifact_registry_ids
+  dataset_task_failure_matrix:
+  - dataset_id
+  - task_id
+  - total_failure_count
+  - primary_failure_class
+  - failure_class_counts
+  - claim_downgrades
+  representative_examples:
+  - example_id
+  - example_type
+  - failure_class
+  - dataset_id
+  - task_id
+  - method_id
+  - route_label
+  - evidence_pointer
+  - interpretation

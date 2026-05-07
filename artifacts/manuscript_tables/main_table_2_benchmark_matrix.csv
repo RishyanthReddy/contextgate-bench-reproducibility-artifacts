@@ -1,0 +1,4 @@
+Benchmark tier,Planned jobs,Completed jobs,Skipped jobs,Failed jobs,Datasets,Task families,Method families,Control families,Split families,Seeds,Metric families,Metric rows,Completed evidence
+Mini,96,96,0,0,2,2,4,2,1,3,15,1440,True
+Core,1152,912,240,0,4,4,6,4,3,3,15,13680,True
+Full benchmark,1512,1316,196,0,6,6,7,2,3,3,15,19740,True

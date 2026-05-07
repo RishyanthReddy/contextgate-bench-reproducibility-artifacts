@@ -1,0 +1,7 @@
+analysis_id,analysis_domain,comparator_method_id,contextgate_false_positive_context_rate,comparator_false_positive_context_rate,false_positive_context_reduction,contextgate_no_harm_rate,comparator_no_harm_rate,contextgate_abstention_rate,positive_control_route_recovery_rate,gate_passed
+registered_vs_always_true_neighbor_mean,registered_context_utility,always_true_neighbor_mean,0.0,0.4782608695652174,0.4782608695652174,1.0,0.5217391304347826,0.5217391304347826,0.0,True
+registered_vs_expression_only_linear,registered_context_utility,expression_only_linear,0.0,0.0,0.0,1.0,1.0,0.5217391304347826,0.0,True
+registered_vs_cellpack_packed_context_tiny,registered_context_utility,cellpack_packed_context_tiny,0.0,0.0,0.0,1.0,1.0,0.5217391304347826,0.0,True
+synthetic_vs_always_true_neighbor_mean,positive_null_control_ladder,always_true_neighbor_mean,0.0,1.0,1.0,1.0,0.5,0.3333333333333333,1.0,True
+synthetic_vs_expression_only_linear,positive_null_control_ladder,expression_only_linear,0.0,0.0,0.0,1.0,0.5,0.3333333333333333,1.0,True
+synthetic_vs_cellpack_packed_context_tiny,positive_null_control_ladder,cellpack_packed_context_tiny,0.0,0.3333333333333333,0.3333333333333333,1.0,0.8333333333333334,0.3333333333333333,1.0,True

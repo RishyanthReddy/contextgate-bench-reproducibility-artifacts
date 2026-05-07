@@ -1,0 +1,4 @@
+claim_id,phase,claim_strength,gate_passed,allowed_claim,blocked_claim,evidence_pointer
+cp_q3_positive_control_sensitivity,CP-Q3,positive_control_only,True,"ContextGate-Bench detects strong, weak, and localized synthetic neighbor-context signal.",Synthetic signal recovery proves real biological neighbor-context utility or unlocks biological Bio-HCA.,positive_control_ladder.parquet
+cp_q3_null_control_specificity,CP-Q3,specificity_control,True,"ContextGate rejects or abstains on null, missing-panel, and FOV/sample-confounded synthetic controls.",Null-control specificity proves absence of biology in all public spatial TME datasets.,false_positive_curve.parquet
+cp_q3_scope_limit,CP-Q3,scope_guardrail,True,CP-Q3 is evaluator sensitivity/specificity evidence only.,"CP-Q3 positive controls are real ligand-receptor biology, clinical evidence, or model-discovery evidence.",positive_control_ladder_summary.json

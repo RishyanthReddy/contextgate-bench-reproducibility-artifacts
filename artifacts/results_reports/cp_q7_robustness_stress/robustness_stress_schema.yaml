@@ -1,0 +1,30 @@
+schema_name: contextgate_robustness_stress_schema
+schema_version: '1.0'
+phase: CP-Q7
+required_tables:
+  stress_test_manifest:
+  - stress_run_id
+  - stress_family
+  - stress_axis
+  - description
+  - predeclared
+  - tuning_allowed
+  stress_result_tables:
+  - stress_run_id
+  - stress_id
+  - stress_family
+  - stress_axis
+  - stress_level
+  - observed_value
+  - threshold_value
+  - passed
+  - claim_id
+  - claim_downgrade
+  - evidence_pointer
+  claim_survival_audit:
+  - stress_run_id
+  - claim_id
+  - claim_status
+  - claim_survives
+  - claim_downgrade
+  - evidence_pointer

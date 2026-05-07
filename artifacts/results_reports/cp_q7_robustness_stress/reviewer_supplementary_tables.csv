@@ -1,0 +1,10 @@
+stress_run_id,table_name,table_role,required_for_cp_q8
+contextgate_bench_v0_cp_q7,stress_test_manifest,Predeclared stress-test families and axes.,True
+contextgate_bench_v0_cp_q7,leave_one_out_stress,Leave-one-dataset/context/platform/split rows.,True
+contextgate_bench_v0_cp_q7,threshold_sensitivity,"FDR, effect, no-harm, FP, replication sweeps.",True
+contextgate_bench_v0_cp_q7,seed_sweep,Seed-level metric stability rows.,True
+contextgate_bench_v0_cp_q7,contextgate_reason_ablation,ContextGate reason-code ablation rows.,True
+contextgate_bench_v0_cp_q7,control_ablation,Wrong-context control ablation rows.,True
+contextgate_bench_v0_cp_q7,positive_control_ablation,Positive/null ladder ablation rows.,True
+contextgate_bench_v0_cp_q7,compute_sensitivity,Runtime/artifact-size scaling rows.,True
+contextgate_bench_v0_cp_q7,claim_survival_audit,Claim survival and downgrade rows.,True

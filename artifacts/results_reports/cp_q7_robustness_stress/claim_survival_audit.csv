@@ -1,0 +1,7 @@
+stress_run_id,claim_id,claim_status,claim_survives,claim_downgrade,evidence_pointer,notes
+contextgate_bench_v0_cp_q7,spatial_context_is_conditional_not_universal,survives,True,none,cp_q7_stress_tables,ContextGate has no biological context_allowed rows under strict gate.
+contextgate_bench_v0_cp_q7,contextgate_reduces_false_context,survives,True,none,cp_q7_stress_tables,Leave-one-out stress preserves ContextGate false-positive advantage.
+contextgate_bench_v0_cp_q7,wrong_context_controls_are_necessary,survives,True,none,cp_q7_stress_tables,Control ablation shows whether the conclusion depends on a control.
+contextgate_bench_v0_cp_q7,positive_null_ladder_detects_synthetic_signal,survives,True,none,cp_q7_stress_tables,ContextGate detects synthetic signal and rejects null/confounds.
+contextgate_bench_v0_cp_q7,strong_biological_context_claim,downgraded,False,unsupported_no_strict_real_context_signal,cp_q7_stress_tables,Strong biological context benefit remains intentionally downgraded.
+contextgate_bench_v0_cp_q7,all_failed_stress_tests_have_downgrades,survives,True,none,cp_q7_stress_tables,Every failed stress row must carry a machine-readable downgrade.

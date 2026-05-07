@@ -1,0 +1,46 @@
+schema_name: router_baseline_schema
+schema_version: '1.0'
+phase: CP-R3
+description: Shared route prediction and calibration tables for baseline routers evaluated
+  against CP-R2 split-safe route labels.
+baseline_names:
+- always_expression
+- always_full_context
+- random_router
+- spatial_statistics_heuristic
+- lr_pathway_heuristic
+- oracle_upper_bound
+route_labels:
+- expression_only
+- compressed_context
+- full_context
+- abstain_uncertain
+context_routes:
+- compressed_context
+- full_context
+required_tables:
+  route_predictions:
+  - baseline_name
+  - router_label_id
+  - true_route_label
+  - predicted_route_label
+  - prediction_confidence
+  - predicted_utility
+  - regret
+  baseline_metrics:
+  - baseline_name
+  - eval_scope
+  - accuracy
+  - brier_score
+  - ece
+  - mean_regret
+  no_harm_table:
+  - baseline_name
+  - eval_scope
+  - false_positive_context_rate
+  - context_overuse_rate
+  oracle_gap_table:
+  - baseline_name
+  - eval_scope
+  - oracle_gap
+  - accuracy_gap

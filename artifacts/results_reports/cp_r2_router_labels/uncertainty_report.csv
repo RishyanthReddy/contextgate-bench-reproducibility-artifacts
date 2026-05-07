@@ -1,0 +1,5 @@
+evidence_class,label_usage,row_count,mean_context_utility_score,reason
+borderline_preflight,validation_only,4,0.25,Borderline preflight rows tune caution but do not train targets.
+coverage_only,train_allowed,4,0.1,Metadata or coverage evidence can train abstention behavior.
+insufficient_evidence,train_allowed,1,0.05,Metadata or coverage evidence can train abstention behavior.
+localized_exploratory,evaluation_only,2,0.35,Biological outcome rows are held out from router training.
