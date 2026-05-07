@@ -13,4 +13,4 @@ Included contents:
 
 The main decision contract is `artifacts/reviewer_hardening/contextgate_decision_contract.md`. The threshold calibration audit is `artifacts/reviewer_hardening/threshold_calibration_detectability_audit.md`.
 
-Archival DOI deposition is still pending; this public GitHub repository supplies an externally timestamped review-access snapshot.
+The review snapshot is pinned by the tag `review-snapshot-2026-05-07`. Archival DOI deposition is still pending; this public GitHub repository supplies an externally timestamped review-access snapshot.
