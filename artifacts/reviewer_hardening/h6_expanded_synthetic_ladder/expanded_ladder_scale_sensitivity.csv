@@ -1,0 +1,12 @@
+signal_family,rung_id,graph_mode,k,radius_um,route,recovery_rate,sensitivity,specificity,false_context_rate,row_count
+confounded_trap,fov_confounded_positive_trap,confounded,5.0,,abstain_uncertain,1.0,0.0,0.93,0.0,12
+distance_decay,distance_decay_short_range_signal,distance_decay,8.0,160.0,positive_control_only,1.0,0.9207991460191084,0.0,0.0,12
+k_sensitivity,k10_linear_diluted_signal,knn,10.0,,positive_control_only,1.0,0.890317822424536,0.0,0.0,12
+k_sensitivity,k3_linear_contact_signal,knn,3.0,,positive_control_only,1.0,0.8786758439067462,0.0,0.0,12
+k_sensitivity,k5_linear_reference_signal,knn,5.0,,positive_control_only,1.0,0.915378487419658,0.0,0.0,12
+null_control,null_no_context_scale_control,none,,,expression_only,1.0,0.0,0.98,0.0,12
+radius_sensitivity,radius120_paracrine_signal,radius,,120.0,positive_control_only,1.0,0.8998055867912028,0.0,0.0,12
+radius_sensitivity,radius40_contact_signal,radius,,40.0,positive_control_only,1.0,0.8722528675428483,0.0,0.0,12
+rare_niche,rare_niche_local_strong_signal,knn,5.0,,positive_control_only,1.0,0.8696176786273991,0.0,0.0,12
+receiver_state_conditioned,receiver_state_specific_signal,knn,5.0,,positive_control_only,1.0,0.9060604650571618,0.0,0.0,12
+threshold_gated,threshold_gated_sender_signal,knn,5.0,,positive_control_only,1.0,0.8854406130126306,0.0,0.0,12

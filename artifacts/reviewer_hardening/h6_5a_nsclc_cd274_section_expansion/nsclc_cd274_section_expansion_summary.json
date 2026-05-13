@@ -1,0 +1,37 @@
+{
+  "additional_attempted_lung_section_count": 7,
+  "additional_evaluated_lung_section_count": 7,
+  "attempted_lung_section_count": 10,
+  "bootstrap_ci_high": 0.021845731894313134,
+  "bootstrap_ci_low": 0.008247445348216116,
+  "bounded_replay_downloaded_bytes": 172341248,
+  "claim_limit": "H6.5A strengthens the H5D additive result by testing additional lung sections under the same marker-derived contract (n=10). Claims must remain bounded to the selected NSCLC CD274 sections and must not be described as full GSE311609 validation.",
+  "config": {
+    "alpha": 0.05,
+    "bootstrap_iterations": 399,
+    "k_neighbors": 5,
+    "max_receiver_cells_per_section": 5000,
+    "permutation_iterations": 63
+  },
+  "context_allowed_count": 1,
+  "dataset_id": "gse311609_xenium_lung_breast_validation",
+  "decision": "expanded_sections_support_context_allowed",
+  "does_not_modify_original_cp_q": true,
+  "effect_gate_section_count": 10,
+  "evaluated_lung_section_count": 10,
+  "expectation_id": "h1_pos_gse311609_nsclc_cd274_checkpoint",
+  "full_raw_bundle_downloaded": false,
+  "median_residual_utility_delta": 0.018195432125342248,
+  "original_h5d_core_lung_section_count": 3,
+  "phase": "H6.5A",
+  "raw_data_download_mode": "bounded_byte_range",
+  "raw_data_downloaded": true,
+  "replication_gate_passed": true,
+  "route_counts": {
+    "context_allowed": 1
+  },
+  "selected_lung_section_count": 10,
+  "spatial_gate_passed": true,
+  "status": "nsclc_cd274_section_expansion_complete",
+  "wrong_context_gate_passed": true
+}

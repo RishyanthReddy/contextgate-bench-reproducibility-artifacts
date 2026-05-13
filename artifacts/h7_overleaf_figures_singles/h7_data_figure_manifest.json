@@ -1,0 +1,37 @@
+{
+  "contextgate_route_decisions": {
+    "eps": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\contextgate_route_decisions.eps",
+    "pdf": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\contextgate_route_decisions.pdf",
+    "png": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\contextgate_route_decisions.png"
+  },
+  "failure_class_distribution": {
+    "eps": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\failure_class_distribution.eps",
+    "pdf": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\failure_class_distribution.pdf",
+    "png": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\failure_class_distribution.png"
+  },
+  "full_benchmark_metric_profile": {
+    "eps": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\full_benchmark_metric_profile.eps",
+    "pdf": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\full_benchmark_metric_profile.pdf",
+    "png": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\full_benchmark_metric_profile.png"
+  },
+  "method_oracle_regret": {
+    "eps": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\method_oracle_regret.eps",
+    "pdf": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\method_oracle_regret.pdf",
+    "png": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\method_oracle_regret.png"
+  },
+  "null_control_false_context_heatmap": {
+    "eps": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\null_control_false_context_heatmap.eps",
+    "pdf": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\null_control_false_context_heatmap.pdf",
+    "png": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\null_control_false_context_heatmap.png"
+  },
+  "positive_control_recovery": {
+    "eps": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\positive_control_recovery.eps",
+    "pdf": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\positive_control_recovery.pdf",
+    "png": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\positive_control_recovery.png"
+  },
+  "stress_family_outcomes": {
+    "eps": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\stress_family_outcomes.eps",
+    "pdf": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\stress_family_outcomes.pdf",
+    "png": "C:\\Users\\rishi\\Downloads\\TME-V4\\manuscript\\h7_overleaf_artifacts\\figures\\singles\\stress_family_outcomes.png"
+  }
+}

@@ -1,0 +1,4 @@
+claim_id,phase,claim_strength,gate_passed,allowed_claim,blocked_claim,evidence_pointer
+h6_expanded_synthetic_sensitivity,H6,synthetic_machinery_check,True,"ContextGate recovers expanded synthetic k, radius, distance-decay, threshold-gated, receiver-state, and rare-niche signal classes.",Expanded synthetic recovery proves that real tissue communication is present in public datasets.,expanded_ladder_recovery.csv
+h6_confounded_trap_specificity,H6,synthetic_specificity_check,True,ContextGate abstains or routes expression-only for null and confounded expanded synthetic controls.,Synthetic trap rejection alone proves immunity to all spatial confounding in real data.,expanded_ladder_failure_modes.csv
+h6_scope_guardrail,H6,scope_guardrail,True,H6 expands synthetic sensitivity/specificity coverage only.,H6 changes original CP-Q3 denominators or the H5D real-data route count.,expanded_ladder_summary.json

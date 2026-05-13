@@ -1,0 +1,11 @@
+sample_accession,sample_group,section_id,panel_class,downloaded_bytes,cell_count,gene_count,replay_status,blocker_code,full_raw_bundle_downloaded,section_status,effect_gate_passed,residual_utility_delta,effect_q_value,in_original_h5d_core_lung_set,additional_h6_5a_section
+GSM9509134,lung,L1,prime_5k,20011520,67763,10029,loaded,,False,evaluated,True,0.027725605955001398,0.01953125,True,False
+GSM9509135,lung,L3,prime_5k,59382272,219387,10029,loaded,,False,evaluated,True,0.0088147491124686,0.01953125,True,False
+GSM9509136,lung,L5,prime_5k,14572544,64937,10029,loaded,,False,evaluated,True,0.03489540259670143,0.01953125,True,False
+GSM9509137,lung,L6,prime_5k,23093248,64872,10029,loaded,,False,evaluated,True,0.0021127334517325735,0.01953125,False,True
+GSM9509138,lung,L7,prime_5k,5564416,36973,10029,loaded,,False,evaluated,True,0.019815384639465305,0.03125,False,True
+GSM9509139,lung,L8,prime_5k,13264384,78955,10029,loaded,,False,evaluated,True,0.0012753061200018179,0.01953125,False,True
+GSM9509140,lung,L1_1,custom_immuno_oncology,6234112,71776,541,loaded,,False,evaluated,True,0.024267664244173703,0.01953125,False,True
+GSM9509141,lung,L1_2,custom_immuno_oncology,4861440,55247,541,loaded,,False,evaluated,True,0.017540281685271997,0.01953125,False,True
+GSM9509142,lung,L2,custom_immuno_oncology,3200000,37300,541,loaded,,False,evaluated,True,0.00034405277518545496,0.03125,False,True
+GSM9509143,lung,L3,custom_immuno_oncology,22157312,247599,541,loaded,,False,evaluated,True,0.0188505825654125,0.01953125,False,True

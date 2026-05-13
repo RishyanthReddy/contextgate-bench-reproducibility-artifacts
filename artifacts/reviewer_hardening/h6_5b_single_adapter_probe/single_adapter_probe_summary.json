@@ -1,0 +1,27 @@
+{
+  "adapter_attempt_count": 1,
+  "claim_conclusion": "H6.5B attempted the preferred LIANA+/COMMOT communication-adapter path for the H5D/H6.5A NSCLC CD274 task, but no native mature-adapter output was produced. H7 must not claim mature-adapter confirmation.",
+  "claim_eligible_adapter_count": 0,
+  "contract_status_counts": {
+    "blocked_missing_native_dependency": 1
+  },
+  "dependency_status": {
+    "anndata": true,
+    "commot": false,
+    "liana": false,
+    "scanpy": true
+  },
+  "does_not_modify_original_cp_q": true,
+  "mature_adapter_confirmed_positive": false,
+  "modal_required": false,
+  "modal_run_status": "not_run_dependency_path_blocked",
+  "native_output_produced": false,
+  "parent_h6_5a_context_allowed_count": 1,
+  "phase": "H6.5B",
+  "route_candidate_counts": {
+    "abstain_uncertain": 1
+  },
+  "selected_adapter_id": "liana_communication_adapter",
+  "selected_expectation_id": "h1_pos_gse311609_nsclc_cd274_checkpoint",
+  "status": "single_adapter_probe_complete"
+}

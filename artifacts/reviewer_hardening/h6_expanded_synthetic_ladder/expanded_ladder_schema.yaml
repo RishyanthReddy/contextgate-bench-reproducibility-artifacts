@@ -1,0 +1,46 @@
+schema_name: contextgate_expanded_ladder_schema
+schema_version: '1.0'
+phase: H6
+required_signal_families:
+- confounded_trap
+- distance_decay
+- k_sensitivity
+- null_control
+- radius_sensitivity
+- rare_niche
+- receiver_state_conditioned
+- threshold_gated
+required_tables:
+  expanded_ladder_cases:
+  - expanded_ladder_case_id
+  - rung_id
+  - signal_family
+  - graph_mode
+  - dataset_id
+  - split_id
+  - seed
+  - expected_route
+  - expected_context_positive
+  expanded_ladder_results:
+  - expanded_ladder_case_id
+  - rung_id
+  - signal_family
+  - method_id
+  - expected_route
+  - observed_route
+  - sensitivity
+  - specificity
+  - false_positive_context_rate
+  - gate_passed
+  expanded_ladder_recovery:
+  - signal_family
+  - rung_id
+  - method_id
+  - sensitivity
+  - recovery_rate
+  - row_count
+  expanded_ladder_failure_modes:
+  - signal_family
+  - method_id
+  - false_context_rate_on_negative
+  - gate_pass_rate

@@ -1,0 +1,78 @@
+{
+  "artifacts": {
+    "expanded_ladder_cases_csv": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_cases.csv",
+    "expanded_ladder_cases_parquet": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_cases.parquet",
+    "expanded_ladder_claim_audit_csv": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_claim_audit.csv",
+    "expanded_ladder_claim_audit_parquet": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_claim_audit.parquet",
+    "expanded_ladder_failure_modes_csv": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_failure_modes.csv",
+    "expanded_ladder_failure_modes_parquet": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_failure_modes.parquet",
+    "expanded_ladder_recovery_csv": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_recovery.csv",
+    "expanded_ladder_recovery_parquet": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_recovery.parquet",
+    "expanded_ladder_report": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_report.md",
+    "expanded_ladder_results_csv": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_results.csv",
+    "expanded_ladder_results_parquet": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_results.parquet",
+    "expanded_ladder_scale_sensitivity_csv": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_scale_sensitivity.csv",
+    "expanded_ladder_scale_sensitivity_parquet": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_scale_sensitivity.parquet",
+    "expanded_ladder_schema": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_schema.yaml",
+    "expanded_ladder_schema_manifest": "data\\manifests\\contextgate_expanded_ladder_schema.yaml",
+    "expanded_ladder_summary": "manuscript\\reviewer_hardening\\h6_expanded_synthetic_ladder\\expanded_ladder_summary.json"
+  },
+  "benchmark_run_id": "contextgate_hardening_h6_expanded_ladder",
+  "case_count": 132,
+  "checksums": {
+    "expanded_ladder_cases_csv": "eb7aad82504fab08e4017d139acad68dfc90cdc0d39172f2397d311fdc36ca74",
+    "expanded_ladder_cases_parquet": "026fd5cc437f12d07b9e7495162e6deceeac648ef3f7781a728fe8bce1ff98ea",
+    "expanded_ladder_claim_audit_csv": "32c9af16d8f48c50a41841feab1578a8cadc1dbf1740bd222f8f73b5e3011734",
+    "expanded_ladder_claim_audit_parquet": "4b3fe4935392fe26c18e7a163775a293abf063251ae0e5c250fe2f233a738287",
+    "expanded_ladder_failure_modes_csv": "861fa4d1d54eb3a9f4d3abb966868e5926fbfe571b7c86a9f2e22dbd428d3dfb",
+    "expanded_ladder_failure_modes_parquet": "d1344f8a589da815921b4f7106a7c972d8dbbd8f8f9328009df0e0cb5bd9e10a",
+    "expanded_ladder_recovery_csv": "cc47906b49aca926b29b3fd25012a0987a578e7d4070491293a4ca5a7e624de5",
+    "expanded_ladder_recovery_parquet": "dc83aeb95cca0de814a51a95fcf4e61455d3560592c751ade68744dc4e6a628a",
+    "expanded_ladder_report": "789c46e4e309dfb883dbb1e25d8c43e22b60d46827f9508dc8be3ae4c4bdbb28",
+    "expanded_ladder_results_csv": "41223aa806d5ac84adb8cef365c62ccb463d0acb14af58397f6f67ef49ccc53f",
+    "expanded_ladder_results_parquet": "3c0a73f93a875c32ff39f4ba4720e5ace43ca1cac06bbdab9bce1cfa96ffc0c7",
+    "expanded_ladder_scale_sensitivity_csv": "6dabb6d07c29452aca77bdfa0c8654bcaf5cb85c624c4064947c54db2a4b0696",
+    "expanded_ladder_scale_sensitivity_parquet": "a59b3312bb9e4d1e755c11d655611a25858b4e7b2364cd9a50f4790d4a506693",
+    "expanded_ladder_schema": "70e118c4e4ce8cc98f01a584359a37653134beaf2484644c2c5fe14888c4f3e3"
+  },
+  "claim_scope": "expanded_synthetic_machinery_check_only",
+  "config": {
+    "benchmark_run_id": "contextgate_hardening_h6_expanded_ladder",
+    "dataset_ids": [
+      "xenium_breast_biomarkers_v1",
+      "gse310352_cosmx_pdac_1k"
+    ],
+    "false_context_threshold": 0.05,
+    "output_label": "contextgate_h6_expanded_ladder",
+    "phase": "H6",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "sensitivity_threshold": 0.65,
+    "specificity_threshold": 0.8,
+    "split_ids": [
+      "unit_hash_split",
+      "fov_holdout"
+    ],
+    "task_id": "expanded_positive_null_control_ladder"
+  },
+  "contextgate_confounded_trap_passed": true,
+  "contextgate_negative_false_context_rate": 0.0,
+  "contextgate_positive_recovery_rate": 1.0,
+  "dataset_count": 2,
+  "does_not_modify_original_cp_q3": true,
+  "ladder_gate_passed": true,
+  "method_count": 10,
+  "output_label": "contextgate_h6_expanded_ladder",
+  "phase": "H6",
+  "required_signal_families_present": true,
+  "result_row_count": 1320,
+  "rung_count": 11,
+  "schema_passed": true,
+  "seed_count": 3,
+  "signal_family_count": 8,
+  "split_count": 2,
+  "task_id": "expanded_positive_null_control_ladder"
+}

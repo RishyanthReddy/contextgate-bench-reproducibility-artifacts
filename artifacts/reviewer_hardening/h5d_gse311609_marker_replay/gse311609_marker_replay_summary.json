@@ -1,0 +1,37 @@
+{
+  "bounded_replay_downloaded_bytes": 102267392,
+  "claim_limit": "H5D supplies bounded real-data marker-derived context_allowed evidence. Manuscript claims must state the marker-derived label contract, bounded section set, and remaining need for broader replay.",
+  "config": {
+    "alpha": 0.05,
+    "bootstrap_iterations": 399,
+    "k_neighbors": 5,
+    "max_receiver_cells_per_section": 5000,
+    "min_context_fraction": 0.005,
+    "min_receiver_cells": 100,
+    "min_replicated_sections": 2,
+    "min_sections": 3,
+    "min_target_nonzero_fraction": 0.001,
+    "output_label": "h5d_gse311609_marker_positive_replay",
+    "permutation_iterations": 63,
+    "phase": "H5D",
+    "random_state": 17
+  },
+  "context_allowed_count": 1,
+  "dataset_id": "gse311609_xenium_lung_breast_validation",
+  "effect_gate_section_count": 4,
+  "evaluated_section_count": 6,
+  "full_raw_bundle_downloaded": false,
+  "h5c_marker_feasibility_decision": "go_bounded_marker_positive_replay",
+  "marker_replay_decision": "real_context_allowed_observed",
+  "phase": "H5D",
+  "raw_data_download_mode": "bounded_byte_range",
+  "raw_data_downloaded": true,
+  "route_counts": {
+    "abstain_uncertain": 1,
+    "context_allowed": 1
+  },
+  "section_replay_count": 6,
+  "status": "marker_positive_replay_complete",
+  "task_count": 2,
+  "tier": "core"
+}

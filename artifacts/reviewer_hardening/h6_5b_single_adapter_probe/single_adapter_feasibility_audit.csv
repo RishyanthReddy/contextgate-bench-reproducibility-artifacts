@@ -1,0 +1,2 @@
+adapter_id,primary_tool,backup_tool,selected_expectation_id,dependency_probe,contract_status,claim_eligible,primary_blocker,next_action
+liana_communication_adapter,LIANA+,COMMOT,h1_pos_gse311609_nsclc_cd274_checkpoint,anndata=True;commot=False;liana=False;scanpy=True,blocked_missing_native_dependency,False,"LIANA+ and COMMOT are not installed in the execution runtime, so no native communication-score table was produced.",Install/freeze the native adapter runner and define a transparent output-to-residual-utility mapping before using this adapter in manuscript claims.

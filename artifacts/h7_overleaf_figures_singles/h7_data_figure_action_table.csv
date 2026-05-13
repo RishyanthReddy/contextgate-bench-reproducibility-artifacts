@@ -1,0 +1,8 @@
+figure_file,decision,reason
+full_benchmark_metric_profile.pdf,regenerate_polished,Original CP-Q full-tier metric profile remains valid; redraw with cleaner labels and journal styling.
+method_oracle_regret.pdf,regenerate_polished,Original CP-Q2 regret values remain valid; redraw without nonessential gridlines.
+positive_control_recovery.pdf,regenerate_with_h6_panel,Adds H6 expanded synthetic ladder while preserving original CP-Q3 ladder panel.
+null_control_false_context_heatmap.pdf,regenerate_polished,Original null-control denominator remains valid; redraw for visual consistency.
+failure_class_distribution.pdf,regenerate_polished,Original failure taxonomy remains valid; redraw without gridlines.
+contextgate_route_decisions.pdf,regenerate_with_hardening_panel,Separates original CP-Q route counts from additive H5D/H6.5A/H6.5B evidence.
+stress_family_outcomes.pdf,regenerate_polished,Original CP-Q7 stress accounting remains valid; redraw without nonessential gridlines.
