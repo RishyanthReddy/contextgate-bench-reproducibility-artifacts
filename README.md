@@ -75,8 +75,9 @@ claims.
 
 ## Versioned Snapshots
 
-The original review snapshot and additive validation evidence snapshot are
-pinned as repository tags.
+The current submission-ready artifact package is pinned by the repository tag
+`submission-ready-2026-05-15`. Earlier review and additive-validation snapshots
+remain available in the repository tag history.
 
 No archival DOI is claimed for this repository snapshot. The public GitHub tags
 provide timestamped validation records for review access.
