@@ -1,31 +1,82 @@
-﻿# ContextGate-Bench Reproducibility Artifacts
+# ContextGate-Bench Reproducibility Artifacts
 
-This public repository provides reviewer-accessible artifacts for the ContextGate-Bench manuscript.
-It contains reproducibility tables, figure exports, hardened-evidence audit
-artifacts, and generation scripts. The manuscript source and compiled paper PDF
-are intentionally not published here before journal submission clearance.
+This repository provides reviewer-accessible artifacts for the ContextGate-Bench
+manuscript. ContextGate-Bench is a benchmark and decision framework for auditing
+when spatial neighbor context should be used in imaging-based spatial
+transcriptomic prediction workflows.
 
-Included contents:
+The repository contains the tables, schemas, validation outputs, figure exports,
+and scripts needed to trace the manuscript claims. The manuscript source and
+compiled PDF are not distributed here before journal-submission clearance.
 
-- `artifacts/results_reports/`: registered CP-Q and CP-R result tables, schemas, summaries, and reports.
-- `artifacts/manuscript_tables/`: generated manuscript and supplementary table fragments plus the table manifest.
-- `artifacts/reviewer_hardening/`: decision contract, method cards, threshold audits, rerun ledgers, and reviewer-hardening ledgers.
-- `artifacts/scripts/`: table and publication figure generation scripts.
-- `artifacts/figures_singles/`: generated PDF/PNG figure exports and publication figure manifest.
-- `artifacts/h7_overleaf_figures_singles/`: H7 Overleaf-ready refreshed data figures and figure-action manifest. Figure 1 and the graphical abstract are intentionally excluded because they are author-supplied draw.io assets.
-- `artifacts/supplementary/`: journal-facing supplementary-file index, combined Excel workbook `Supplementary_Tables_S1_to_S39.xlsx`, and additive hardening workbook `Supplementary_Tables_S40_to_S44_Hardening.xlsx`.
-- `artifacts/manuscript/`: reviewer-remediation plans only. The full manuscript source and PDF are intentionally withheld from this public repository pending author and submission clearance.
+## Contents
 
-The main decision contract is `artifacts/reviewer_hardening/contextgate_decision_contract.md`. The threshold calibration audit is `artifacts/reviewer_hardening/threshold_calibration_detectability_audit.md`.
+- `artifacts/results_reports/`: registered result tables, schemas, summaries,
+  and route-decision reports.
+- `artifacts/manuscript_tables/`: manuscript and supplementary table fragments
+  plus the table manifest.
+- Reviewer evidence records: decision contract, method cards, threshold audits,
+  validation ledgers, and claim-boundary records.
+- `artifacts/scripts/`: scripts used to rebuild manuscript tables and data
+  figures from registered artifacts.
+- `artifacts/figures_singles/`: PDF/PNG figure exports and the figure manifest.
+- `artifacts/supplementary/`: supplementary-file index, Supplementary File 2
+  (`Supplementary_Tables_S1_to_S39.xlsx`), and Supplementary File 3
+  with additive validation tables.
+- `artifacts/manuscript/`: manuscript-remediation plans and review ledgers only;
+  this directory does not contain the full submitted manuscript.
 
-Additive hardening artifacts are provided under:
+## Reproduce Main Tables And Figures
 
-- `artifacts/reviewer_hardening/h5d_gse311609_marker_replay/`: bounded marker-derived GSE311609 replay with one NSCLC CD274 `context_allowed` route and one breast CXCL12/CXCR4 abstention.
-- `artifacts/reviewer_hardening/h6_expanded_synthetic_ladder/`: expanded synthetic ladder spanning additional neighbor mechanisms.
-- `artifacts/reviewer_hardening/h6_5a_nsclc_cd274_section_expansion/`: 10 selected lung-section expansion for the NSCLC CD274 route.
-- `artifacts/reviewer_hardening/h6_5b_single_adapter_probe/`: LIANA+/COMMOT adapter feasibility probe documenting zero claim-eligible native adapter rows because the required native packages were unavailable.
-- `artifacts/reviewer_hardening/pre_h7_hardening_results_verification.md`: consolidated hardening metrics and claim-boundary checklist.
+The primary table and figure builders are included under `artifacts/scripts/`.
+From the repository root, run:
 
-The original review snapshot remains pinned by the tag `review-snapshot-2026-05-07`. The hardened pre-H7 artifact snapshot is intended to be pinned by the tag `hardened-pre-h7-evidence-complete-2026-05-13` after this README update is pushed. No archival DOI is claimed in this repository snapshot unless or until a separate archival deposit is minted; this public GitHub repository supplies the externally timestamped review-access artifact package.
+```bash
+python artifacts/scripts/build_contextgate_manuscript_tables.py
+python artifacts/scripts/build_contextgate_publication_figures.py
+```
 
-Note: generated table fragments remain available under `artifacts/manuscript_tables/` as reproducibility artifacts, but the full manuscript `.tex` source and compiled paper PDF are not published here to avoid premature redistribution of manuscript text.
+The supplementary workbooks are provided directly in `artifacts/supplementary/`.
+The figure manifest is available at
+`artifacts/figures_singles/publication_figure_manifest.json`, and the table
+manifest is available at
+`artifacts/manuscript_tables/manuscript_table_manifest.json`.
+
+## Evidence Map
+
+The main decision contract and calibration audit are included with the reviewer
+evidence records in the artifact tree.
+
+Additive validation records include the bounded marker-derived GSE311609 replay,
+expanded synthetic ladder, 10 selected lung-section NSCLC CD274 expansion, and
+LIANA+/COMMOT adapter feasibility probe. Manuscript labels and source locations
+are listed in `artifacts/supplementary/README.md`.
+
+## Data Access
+
+This repository contains derived benchmark artifacts and validation outputs.
+Public spatial transcriptomics datasets should be accessed from their original
+public repositories or from the cached data locations described by the dataset
+manifests and supplementary tables. Datasets rejected for access or schema
+reasons are retained in the rejected registry and are not used for manuscript
+claims.
+
+## Known Limitations
+
+- The primary executed benchmark covers targeted-panel, imaging-based CosMx and
+  Xenium datasets.
+- The GSE311609 evidence is bounded marker-derived validation, not full
+  41-section validation.
+- The LIANA+/COMMOT adapter probe produced no claim-eligible native adapter
+  output; mature-adapter confirmation is not claimed.
+- Synthetic ladders validate evaluator behavior and detectability under
+  registered controls; they do not prove real communication biology in every
+  dataset.
+
+## Versioned Snapshots
+
+The original review snapshot and additive validation evidence snapshot are
+pinned as repository tags.
+
+No archival DOI is claimed for this repository snapshot. The public GitHub tags
+provide timestamped validation records for review access.

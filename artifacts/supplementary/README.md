@@ -1,6 +1,6 @@
 # ContextGate-Bench Supplementary Files
 
-This directory contains journal-facing supplementary files for the ContextGate-Bench submission package.
+This directory contains supplementary files for the ContextGate-Bench submission package.
 
 ## Supplementary File 2: Supplementary Tables S1-S39
 
@@ -13,11 +13,11 @@ This directory contains journal-facing supplementary files for the ContextGate-B
   - `Table S30`: route aggregation trace and dataset-task performance disaggregation.
   - `Table S33`: threshold grid detail, stress-family accounting, and claim-survival reconciliation.
 
-## Journal-Facing Supplementary Note/File Map
+## Supplementary Note/File Map
 
-Use these names in the manuscript instead of repository-style file paths:
+Use these manuscript labels instead of repository-style file paths:
 
-| Journal-facing label | Repository source |
+| Manuscript label | Repository source |
 |---|---|
 | Supplementary Note 1: External Review Gap Analysis | `artifacts/reviewer_hardening/cp_q8_6_gap_ledger.md` |
 | Supplementary File 1: Methodological Parameter Cards | `artifacts/reviewer_hardening/method_cards/` |
